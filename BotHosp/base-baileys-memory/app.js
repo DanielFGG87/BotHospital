@@ -257,9 +257,30 @@ const flowConsultorio = addKeyword(['1','consultorio','medico'])
     [flowNeumologia, flowObstreticia, flowOtorrino, flowNefrologia, flowNutricion, flowOdontologia, flowFisiatria, flowOftalmologia, flowOncologia, flowPsiquiatria, flowTraumatologia, flowPediatria, flowUrologia, flowFonoaudiologia, flowGastroenterologia, flowGinecologia, flowHematologia, flowNeurologia, flowCardiologia, flowClinicaMed, flowCirugia, flowDermatologia, flowEndocrinologia]
     )
 
+// ######
+
+// ESTUDIOS DE DIAGNÓSTICO 
+
+// ######
+
+const. flowRayos = addKerword(['1','rayos'])
+
 
 const flowEstudioDiag = addKeyword(['2','diagnostico','estudio'])
-    .addAnswer(['Enviar foto de la orden de indicacion'])
+    .addAnswer(['
+'*1.-* Rayos',
+'*2.-* Espinografia',
+'*3.-* Tomografía',
+'*4.-* Mamografía',
+'*5.-* Magnificaciones',
+'*6.-* Ecocardiograma',
+Electroencefalograma 
+Doppler
+Estudios audiologicos 
+Estudios gastroenterológicos
+Laboratorio
+
+'])
 
 // ######
 
