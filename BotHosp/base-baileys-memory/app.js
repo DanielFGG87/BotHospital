@@ -263,24 +263,43 @@ const flowConsultorio = addKeyword(['1','consultorio','medico'])
 
 // ######
 
-const. flowRayos = addKerword(['1','rayos'])
+const flowRayos = addKerword(['1','rayos'])
 
+const flowEspinografia = addKeyword(['2','Espinografia'])
+
+const flowTomografía = addKeyword(['3','Tomografia'])
+
+const flowMamografía = addKeyword(['4','Mamografía'])
+
+const flowMagnificaciones = addKeyword(['5','Magnificaciones'])
+
+const flowEcocardiograma = addKeyword(['6','Ecocardiograma'])
+
+const flowElectroencefalograma = addKeyword(['7''Electroencefalograma'])
+
+const flowDoppler = addKeyword(['8','Doppler'])
+
+const flowEstAudiologicos = addKeyword(['9','Estudios audiologicos'])
+
+const flowEstGastroenterológicos = addKeyword(['10','Estudios Gastroenterológicos'])
+
+const flowLaboratorio = addKeyword(['11','Laboratorio'])
 
 const flowEstudioDiag = addKeyword(['2','diagnostico','estudio'])
-    .addAnswer(['
-'*1.-* Rayos',
-'*2.-* Espinografia',
-'*3.-* Tomografía',
-'*4.-* Mamografía',
-'*5.-* Magnificaciones',
-'*6.-* Ecocardiograma',
-Electroencefalograma 
-Doppler
-Estudios audiologicos 
-Estudios gastroenterológicos
-Laboratorio
-
-'])
+    .addAnswer([
+        '*1.-* Rayos',
+        '*2.-* Espinografia',
+        '*3.-* Tomografía',
+        '*4.-* Mamografía',
+        '*5.-* Magnificaciones',
+        '*6.-* Ecocardiograma',
+        '*7.-* Electroencefalograma', 
+        '*8.-* Doppler',
+        '*9.-* Estudios Audiologicos', 
+        '*10.-* Estudios Gastroenterológicos',
+        '*11.-* Laboratorio'
+        [flowRayos, flowTomogarfia, flowEspinografia, flowMamografia, flowMagnificaciones, flowEcocardiograma, flowDoppler, flowElectroenfacelograma, flowEstAudiologicos, flowEstGastroenterológicos, flowLaboratorio]
+        ])
 
 // ######
 
