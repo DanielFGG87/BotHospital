@@ -15,6 +15,13 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 */
 
 // ######
+// MEDICOS
+// ######
+
+const flowDrRegina =
+
+
+// ######
 // Especialidades Medicas
 // ######
 
@@ -27,25 +34,25 @@ const flowCardiologia = addKeyword(['1', 'cardiologia']).addAnswer(['Por favor s
 
 const flowClinicaMed = addKeyword(['2', 'clinica']).addAnswer(['Por favor selecione el medico'])
     .addAnswer([
-        'Dr. La Regina',
-        'Dra. Lopez'
+        '*REG*.- Dr. La Regina',
+        '*LOP*.- Dra. Lopez'
 ])
 
 
 const flowCirugia = addKeyword(['3', 'cirugia']).addAnswer(['Por favor selecione el medico'])
     .addAnswer([
-        'Dr. Del Negro',
-        'Dr. Wallace',
-        'Dra. Lopez',
-        'Dr. Almendariz',
-        'Dra. Bubillo',
-        'Dr. De Michelis',
-        'Dr Miranda'
+        '*NEG*.- Dr. Del Negro',
+        '*WAL*.- Dr. Wallace',
+        '*LOP*.- Dra. Lopez',
+        '*ALM*.- Dr. Almendariz',
+        '*BUB*.- Dra. Bubillo',
+        '*MIC*.- Dr. De Michelis',
+        '*MIR*.- Dr Miranda'
 ])
 
 const flowDermatologia = addKeyword(['4', 'dermatologia']).addAnswer(['Por favor selecione el medico'])
     .addAnswer([
-        'Dra. Pierini'
+        '*PIE*.- Dra. Pierini'
         
 ])
 
@@ -58,9 +65,9 @@ const flowEndocrinologia = addKeyword(['5', 'endocrinologia']).addAnswer(['Por f
 
 const flowFonoaudiologia = addKeyword(['6', 'fonoaudiologia']).addAnswer(['Por favor selecione el medico'])
     .addAnswer([
-        'Tratamiento del lenguaje',
-        'OEA',
-        'Estudios audiologicos'
+        '*TL*.- Tratamiento del Lenguaje',
+        '*OEA*.- OEA',
+        '*EA*.- Estudios Audiologicos'
 ])
 
 const flowGastroenterologia = addKeyword(['7', 'gastro']).addAnswer(['Por favor selecione el medico'])
@@ -263,29 +270,113 @@ const flowConsultorio = addKeyword(['1','consultorio','medico'])
 
 // ######
 
-const flowRayos = addKerword(['1','rayos'])
+const flowRayos = addKeyword(['1','rayos'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+        'Apellido y nombre',
+        'DNI', 
+        'Fecha de nacimiento',
+        'Localidad',
+        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)',
+        '*Peso aproximado del paciente*'
+        ])
+
 
 const flowEspinografia = addKeyword(['2','Espinografia'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+        'Apellido y nombre',
+        'DNI', 
+        'Fecha de nacimiento',
+        'Localidad',
+        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)',
+        '*Presentar radiografia previa de columna, el dia de atención'
+        ])
 
-const flowTomografía = addKeyword(['3','Tomografia'])
 
-const flowMamografía = addKeyword(['4','Mamografía'])
+const flowTomografia = addKeyword(['3','Tomografia'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+        'Apellido y nombre',
+        'DNI', 
+        'Fecha de nacimiento',
+        'Localidad',
+        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)'
+        ])
+
+
+const flowMamografia = addKeyword(['4','Mamografía'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+        'Apellido y nombre',
+        'DNI', 
+        'Fecha de nacimiento',
+        'Localidad',
+        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)'
+        ])
+
 
 const flowMagnificaciones = addKeyword(['5','Magnificaciones'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+        'Apellido y nombre',
+        'DNI', 
+        'Fecha de nacimiento',
+        'Localidad',
+        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)'
+         ])
 
 const flowEcocardiograma = addKeyword(['6','Ecocardiograma'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+        'Apellido y nombre',
+        'DNI', 
+        'Fecha de nacimiento',
+        'Localidad',
+        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)'
+        ])
 
-const flowElectroencefalograma = addKeyword(['7''Electroencefalograma'])
+const flowElectroenfacelograma = addKeyword(['7','Electroencefalograma'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+        'Apellido y nombre',
+        'DNI', 
+        'Fecha de nacimiento',
+        'Localidad',
+        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)'
+        ])
 
 const flowDoppler = addKeyword(['8','Doppler'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+        'Apellido y nombre',
+        'DNI', 
+        'Fecha de nacimiento',
+        'Localidad',
+        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)',
+        '*Recuerde que solo se realizan Doppler de vasos de cuello, cardíaco y obstétrico y venoso de MMII*'
+        ])
 
 const flowEstAudiologicos = addKeyword(['9','Estudios audiologicos'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+        'Apellido y nombre',
+        'DNI', 
+        'Fecha de nacimiento',
+        'Localidad',
+        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)'
+        ])
 
-const flowEstGastroenterológicos = addKeyword(['10','Estudios Gastroenterológicos'])
+const flowEstGastroenterologicos = addKeyword(['10','Estudios Gastroenterológicos'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+        'Apellido y nombre',
+        'DNI', 
+        'Fecha de nacimiento',
+        'Localidad',
+        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)'
+        ])
 
 const flowLaboratorio = addKeyword(['11','Laboratorio'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+        'Apellido y nombre',
+        'DNI', 
+        'Fecha de nacimiento',
+        'Localidad',
+        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)'
+        ])
 
-const flowEstudioDiag = addKeyword(['2','diagnostico','estudio'])
+const flowEstudioDiag = addKeyword(['12','diagnostico','estudio'])
     .addAnswer([
         '*1.-* Rayos',
         '*2.-* Espinografia',
@@ -298,7 +389,7 @@ const flowEstudioDiag = addKeyword(['2','diagnostico','estudio'])
         '*9.-* Estudios Audiologicos', 
         '*10.-* Estudios Gastroenterológicos',
         '*11.-* Laboratorio'
-        [flowRayos, flowTomogarfia, flowEspinografia, flowMamografia, flowMagnificaciones, flowEcocardiograma, flowDoppler, flowElectroenfacelograma, flowEstAudiologicos, flowEstGastroenterológicos, flowLaboratorio]
+        [flowRayos, flowTomografia, flowEspinografia, flowMamografia, flowMagnificaciones, flowEcocardiograma, flowDoppler, flowElectroenfacelograma, flowEstAudiologicos, flowEstGastroenterologicos, flowLaboratorio]
         ])
 
 // ######
