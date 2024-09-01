@@ -19,14 +19,21 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 
 function mensage() {
-    return [`Por favor, ingrese los siguientes datos:\n
-    Apellido y Nombre:\n
-    DNI:\n
-    Fecha de Nacimiento:\n
-    Localidad:\n
-    Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden médica digital y la credencial actualizada)\n
-    Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo`]}
+return [`Por favor, ingrese los siguientes datos:\n
+Apellido y Nombre:\n
+DNI:\n
+Fecha de Nacimiento:\n
+Localidad:\n
+Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden médica digital y la credencial actualizada)\n
+Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo`]}
 
+function mensage2() {
+return [`Por favor, ingrese los siguientes datos:\n
+Apellido y Nombre:\n
+DNI:\n
+Fecha de Nacimiento:\n
+Localidad:\n
+Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo`]}  
 
 // ######
 // Especialidades Medicas
@@ -61,11 +68,7 @@ const flowClinicaMed = addKeyword(['2', 'clinica']).addAnswer(['Por favor seleci
 
 // CIRUGIA
 
-const flowDrNegro = addKeyword(['1','negro']).addAnswer([
-    
-    mensage()
-    
-
+const flowDrNegro = addKeyword(['1','negro']).addAnswer([ mensage()  
 ])
 
 const flowDrWallace = addKeyword(['2','wallace']).addAnswer([mensage()
@@ -74,7 +77,7 @@ const flowDrWallace = addKeyword(['2','wallace']).addAnswer([mensage()
 const flowDrLopezC = addKeyword(['3','lopez']).addAnswer([
     mensage()])
 
-const flowDrAlmendariz = addKeyword(['4','almendariz']).addAnswer([
+const flowDrArmendariz = addKeyword(['4','armendariz']).addAnswer([
     mensage()])
 
 const flowDrBubilllo = addKeyword(['bubillo','5']).addAnswer([
@@ -86,20 +89,33 @@ const flowDrMichelis = addKeyword(['michelis','6']).addAnswer([
 const flowDrMiranda = addKeyword(['miranda','7']).addAnswer([
     mensage()])
 
-const flowCirugia = addKeyword(['3', 'cirugia']).addAnswer(['Por favor selecione el medico'])
+const flowCirugiaIntervencion = addKeyword(['3', 'no']).addAnswer(['Por favor selecione el medico'])
     .addAnswer([
         '*1*.- Dr. Negro',
         '*2*.- Dr. Wallace',
         '*3*.- Dra. Lopez',
-        '*4*.- Dr. Almendariz',
+        '*4*.- Dr. Armendariz',
         '*5*.- Dra. Bubillo',
         '*6*.- Dr. De Michelis',
         '*7*.- Dr Miranda',
     ],
     null,
     null,
-    [flowDrNegro, flowDrWallace, flowDrLopezC, flowDrAlmendariz, flowDrBubilllo, flowDrMichelis, flowDrMiranda]
+    [flowDrNegro, flowDrWallace, flowDrLopezC, flowDrArmendariz, flowDrBubilllo, flowDrMichelis, flowDrMiranda]
     )
+
+const flowCirugiaCuracion = addKeyword(['1','si','curacion']).addAnswer([mensage2()])
+
+    
+const flowCirugia = addKeyword(['3', 'cirugia']).addAnswer(['¿Desea turno para curaciones o retirar puntos?'])
+           .addAnswer([
+           ' ',
+            '*1*.- SI',
+            '*2*.- NO'],
+          null,
+          null,
+          [flowCirugiaCuracion, flowCirugiaIntervencion])
+    
 
 // DERMATOLOGIA
 
@@ -321,13 +337,22 @@ const flowTraumatologia = addKeyword(['14', 'traumatologia']).addAnswer(['Por fa
 // PEDIATRIA
 
 
-
-const flowPediatria = addKeyword(['15', 'pediatria']).addAnswer(['Por favor selecione el medico'])
-    .addAnswer([
-        'Medico 1',
-        'Medico 2',
-        'Medico 3'
+const flowPediatriaSano = addKeyword(['1', 'si']).addAnswer([
+    mensage()
 ])
+
+const flowPediatriaNoSano = addKeyword(['2', 'no']).addAnswer(['*Turno de manera presencial de 8:30 hs a 11:30 hs'])
+
+
+const flowPediatria = addKeyword(['15', 'pediatria']).addAnswer(['Por favor selecione si es para un niño/a completamente sano.'])
+  .addAnswer([
+     ' ',
+      '*1*.- SI',
+      '*2*.- NO'],
+    null,
+    null,
+    [flowPediatriaSano, flowPediatriaNoSano])
+
 
 // UROLOGIA
 
@@ -438,46 +463,81 @@ const flowDrSerrani = addKeyword(['5','serrani']).addAnswer([
 
 const flowObstreticia = addKeyword(['21', 'obstreticia']).addAnswer(['Por favor selecione el medico'])
     .addAnswer([
-        'Arias',
-        'Lemme',
-        'Tenaglia',
-        'Gil Ortiz',
-        'Serrani'],
+        '*1*.- Arias',
+        '*2*.- Lemme',
+        '*3*.- Tenaglia',
+        '*4*.- Gil Ortiz',
+        '*5*.- Serrani'],
         null,
         null,
         [flowDrArias, flowDrLemme, flowDrOrtiz, flowDrSerrani, flowDrTenaglia])
 
+
 // OTORRINONARINGOLOGIA
 
-
+const flowDrMazzei = addKeyword(['5','mazzei']).addAnswer([
+    mensage()])
 
 const flowOtorrino = addKeyword(['22', 'otorrino']).addAnswer(['Por favor selecione el medico'])
     .addAnswer([
-        'Dr. Mazzei',
+        '*1*.- Dr. Mazzei'],
         //'Medico 2',
         //'Medico 3'
-])
+        null,
+        null,
+        [flowDrMazzei])
+
+// NEFROLOGIA
+
+const flowDrCarriquiri = addKeyword(['1','carriquiri']).addAnswer([
+    mensage()])
 
 const flowNefrologia = addKeyword(['23', 'nefrologia']).addAnswer(['Por favor selecione el medico'])
     .addAnswer([
-        'Dr. Carriquiri',
+        '*1*.- Dr. Carriquiri'],
         //'Medico 2',
         //'Medico 3'
-])
+        null,
+        null,
+        [flowDrCarriquiri])
 
-const flowKineseologia = addKeyword(['27', 'kineseologia']).addAnswer(['Por favor selecione el medico'])
-    .addAnswer([
-        'Dr. Carriquiri',
-        //'Medico 2',
-        //'Medico 3'
+// KINESIOLOGIA
+
+const flowKinesiologia = addKeyword(['25', 'kinesiologia']).addAnswer(['Enviar foto de la orden de indicación',
+    'Apellido y nombre:',
+    'DNI:', 
+    'Fecha de nacimiento:',
+    'Localidad:',
+    '*Obra social (recuerde que los pacientes de PAMI deben dirigirse a la agencia de PAMI)*'
     ])
-
-    const flowTerapiaOcu = addKeyword(['28', 'terapia']).addAnswer(['Por favor selecione el medico'])
-    .addAnswer([
-        'Medico 1',
+  
         //'Medico 2',
         //'Medico 3'
+    //])
+
+// TERAPIA OCUPACIONAL
+
+    const flowTerapiaOcu = addKeyword(['26', 'terapia']).addAnswer([mensage()])
+    //.addAnswer([
+        //'Medico 1',
+        //'Medico 2',
+        //'Medico 3'
+//])
+
+// VACUNACION
+
+const flowVacunacion = addKeyword(['24', 'vacunacion']).addAnswer(['Horario de atencion de 7:00 hs a 18:00 hs',
+    'Los turnos son a demanda, previamentepasando por ventanilla  de *TURNOS*.',
+    '*Todos los dias se dan todas las vacunas, para FIEBRE AMARILLA debe solicitar turno previo llamando a las lineas fijas intero: 110*'
+    //'Medico 2',
+    //'Medico 3'
 ])
+
+// PSICOLOGIA
+
+const flowPsicologia = addKeyword(['27', 'psicologia']).addAnswer([mensage()])
+
+
 
 // ######
 
@@ -525,12 +585,15 @@ const flowConsultorio = addKeyword(['1','consultorio','medico'])
         '*20.-* Neumologia',
         '*21.-* Obstreticia',
         '*22.-* Otorrinonaringologia',
-        '*23.-* Nefrologia'
-    
+        '*23.-* Nefrologia',
+        '*24.-* Vacunacion',
+        '*25.-* Kinesiologia',
+        '*26.-* Terapia ocupacional',
+        '*27.-* Psicologia'
     ],
     null,
     null,
-    [flowNeumologia, flowObstreticia, flowOtorrino, flowNefrologia, flowNutricion, flowOdontologia, flowFisiatria, flowOftalmologia, flowOncologia, flowPsiquiatria, flowTraumatologia, flowPediatria, flowUrologia, flowFonoaudiologia, flowGastroenterologia, flowGinecologia, flowHematologia, flowNeurologia, flowCardiologia, flowClinicaMed, flowCirugia, flowDermatologia, flowEndocrinologia]
+    [flowPsicologia, flowTerapiaOcu, flowKinesiologia, flowVacunacion, flowNeumologia, flowObstreticia, flowOtorrino, flowNefrologia, flowNutricion, flowOdontologia, flowFisiatria, flowOftalmologia, flowOncologia, flowPsiquiatria, flowTraumatologia, flowPediatria, flowUrologia, flowFonoaudiologia, flowGastroenterologia, flowGinecologia, flowHematologia, flowNeurologia, flowCardiologia, flowClinicaMed, flowCirugia, flowDermatologia, flowEndocrinologia]
     )
 
 // ######
@@ -643,7 +706,7 @@ const flowLaboratorio = addKeyword(['11','Laboratorio'])
         'DNI', 
         'Fecha de nacimiento',
         'Localidad',
-        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)'
+        '*Obra social (recuerde que los pacientes de PAMI poseen convenio con los laboratorios privados y pueden solicitar su turno ahí sin costo adicional*'
         ])
 
 
