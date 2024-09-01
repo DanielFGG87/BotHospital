@@ -50,7 +50,7 @@ const flowPediatriaSano = addKeyword(['1', 'si']).addAnswer([
 const flowPediatriaNoSano = addKeyword(['2', 'no']).addAnswer(['*Turno de manera presencial de 8:30 hs a 11:30 hs'])
 
 
-const flowPediatria = addKeyword(['15', 'pediatria']).addAnswer(['Por favor selecione si es para un niño completamente sano.'])
+const flowPediatria = addKeyword(['15', 'pediatria']).addAnswer(['Por favor selecione si es para un niño/a completamente sano.'])
     .addAnswer([
        ' ',
         '*1*.- SI',
@@ -58,3 +58,17 @@ const flowPediatria = addKeyword(['15', 'pediatria']).addAnswer(['Por favor sele
       null,
       null,
       [flowPediatriaSano, flowPediatriaNoSano])
+
+
+const flowCirugiaCuracion = addKeyword(['1','si','curacion']).addAnswer([])
+
+const flowCirugiaIntervencion addKeyword(['2','no']).addAnswer([])
+
+const flowCirugia = addKeyword(['3', 'cirugia']).addAnswer(['¿Desea turno para curaciones o retirar puntos?'])
+       .addAnswer([
+       ' ',
+        '*1*.- SI',
+        '*2*.- NO'],
+      null,
+      null,
+      [flowCirugiaCuracion, flowCirugiaIntervencion])
