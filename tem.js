@@ -72,3 +72,11 @@ const flowCirugia = addKeyword(['3', 'cirugia']).addAnswer(['¿Desea turno para 
       null,
       null,
       [flowCirugiaCuracion, flowCirugiaIntervencion])
+
+const flowFueraDeHorario = addKeyword([]).addAnswer([
+    '*Nos encontramos FUERA DE HORARIO DE ATENCION*',
+    'Horario de atencion',
+    'Lunes a viernes (dias habiles) de 7:00 hs a 12:00 hs',
+    '*Los mensajes no quedaran guardados*',
+    'Por favor, vuelva a comunicarse.',
+    'Muchas gracias')]
