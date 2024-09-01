@@ -2,189 +2,10 @@
   key: {
     remoteJid: '5492345662340@s.whatsapp.net',
     fromMe: false,
-    id: 'B48930CA359310F036C12A68F8A37396',
+    id: '59BE5924A0F58C69457241DC5E60EE63',
     participant: undefined
   },
-  messageTimestamp: 1724958754,
-  pushName: 'Estefania Danciul',
-  broadcast: false,
-  message: Message {
-    documentMessage: DocumentMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.7119-24/30022216_1066137751138026_8155573967815761421_n.enc?ccb=11-4&oh=01_Q5AaIPfvM-u9ykpZk--h2kIUjx9Q3wKkQVgnuqqD2WI7YA_W&oe=66F81D60&_nc_sid=5e03e0&mms3=true',
-      mimetype: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      pageCount: 3,
-      mediaKey: [Uint8Array],
-      fileName: 'consultorios.xlsx',
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7119-24/30022216_1066137751138026_8155573967815761421_n.enc?ccb=11-4&oh=01_Q5AaIPfvM-u9ykpZk--h2kIUjx9Q3wKkQVgnuqqD2WI7YA_W&oe=66F81D60&_nc_sid=5e03e0',
-      mediaKeyTimestamp: [Long]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  verifiedBizName: 'Estefania Danciul',
-  body: '_event_document__b5175f51-e984-40b5-8468-026534ba109c',
-  from: '5492345662340'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5492345662340@s.whatsapp.net',
-    fromMe: false,
-    id: '2952E5727EDD3D96A5C15E3AE9101F8A',
-    participant: undefined
-  },
-  messageTimestamp: 1724958767,
-  pushName: 'Estefania Danciul',
-  broadcast: false,
-  message: Message {
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    },
-    reactionMessage: ReactionMessage {
-      key: [MessageKey],
-      text: '😂',
-      senderTimestampMs: [Long]
-    }
-  },
-  body: '',
-  from: '5492345662340'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5492345662340@s.whatsapp.net',
-    fromMe: false,
-    id: '62DDDAF0EEA87D084F676E7701FD5A49',
-    participant: undefined
-  },
-  messageTimestamp: 1724958816,
-  pushName: 'Estefania Danciul',
-  broadcast: false,
-  message: Message {
-    audioMessage: AudioMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.7117-24/19431801_533943682503522_7943083087877702626_n.enc?ccb=11-4&oh=01_Q5AaIE7ecrc57IpYqfTCDPBBeQxkKFn45eDW6c9XaQw-KgYA&oe=66F84F5D&_nc_sid=5e03e0&mms3=true',
-      mimetype: 'audio/ogg; codecs=opus',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      seconds: 47,
-      ptt: true,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7117-24/19431801_533943682503522_7943083087877702626_n.enc?ccb=11-4&oh=01_Q5AaIE7ecrc57IpYqfTCDPBBeQxkKFn45eDW6c9XaQw-KgYA&oe=66F84F5D&_nc_sid=5e03e0',
-      mediaKeyTimestamp: [Long],
-      waveform: [Uint8Array]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  verifiedBizName: 'Estefania Danciul',
-  body: '_event_voice_note__67c1dd1c-eacf-454d-861e-73ecee4ce41a',
-  from: '5492345662340'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5492345662340@s.whatsapp.net',
-    fromMe: false,
-    id: '41E106C22C79A9468D2D694077E4E30A',
-    participant: undefined
-  },
-  messageTimestamp: 1724958876,
-  pushName: 'Estefania Danciul',
-  broadcast: false,
-  message: Message {
-    audioMessage: AudioMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.7117-24/19251447_449253051431117_5207919922060195190_n.enc?ccb=11-4&oh=01_Q5AaIKumIONSSY1V5wgGRDO_6XiLKENjTNAUdNzk7I-rVCoy&oe=66F8420E&_nc_sid=5e03e0&mms3=true',
-      mimetype: 'audio/ogg; codecs=opus',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      seconds: 58,
-      ptt: true,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7117-24/19251447_449253051431117_5207919922060195190_n.enc?ccb=11-4&oh=01_Q5AaIKumIONSSY1V5wgGRDO_6XiLKENjTNAUdNzk7I-rVCoy&oe=66F8420E&_nc_sid=5e03e0',
-      mediaKeyTimestamp: [Long],
-      waveform: [Uint8Array]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  verifiedBizName: 'Estefania Danciul',
-  body: '_event_voice_note__bad49285-1543-480f-8778-3767ac8187f4',
-  from: '5492345662340'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5492345662340@s.whatsapp.net',
-    fromMe: false,
-    id: 'B49F0EDFF909059C7DC1A5089243E2A1',
-    participant: undefined
-  },
-  messageTimestamp: 1724958897,
-  pushName: 'Estefania Danciul',
-  broadcast: false,
-  message: Message {
-    audioMessage: AudioMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.7117-24/30783675_402607036211733_4335431363705939598_n.enc?ccb=11-4&oh=01_Q5AaIErNPiJhg-_08fLZgTRPbKO7tMYUv5snBgcHsgWcju3F&oe=66F82381&_nc_sid=5e03e0&mms3=true',
-      mimetype: 'audio/ogg; codecs=opus',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      seconds: 19,
-      ptt: true,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7117-24/30783675_402607036211733_4335431363705939598_n.enc?ccb=11-4&oh=01_Q5AaIErNPiJhg-_08fLZgTRPbKO7tMYUv5snBgcHsgWcju3F&oe=66F82381&_nc_sid=5e03e0',
-      mediaKeyTimestamp: [Long],
-      waveform: [Uint8Array]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  verifiedBizName: 'Estefania Danciul',
-  body: '_event_voice_note__8760a279-a630-453d-823b-1b44cc2976f4',
-  from: '5492345662340'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5492345662340@s.whatsapp.net',
-    fromMe: false,
-    id: 'F05080BD0643C2E059475D7D50947861',
-    participant: undefined
-  },
-  messageTimestamp: 1724960319,
-  pushName: 'Estefania Danciul',
-  broadcast: false,
-  message: Message {
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    },
-    reactionMessage: ReactionMessage {
-      key: [MessageKey],
-      text: '❤️',
-      senderTimestampMs: [Long]
-    }
-  },
-  body: '',
-  from: '5492345662340'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5492345662340@s.whatsapp.net',
-    fromMe: false,
-    id: '674146180AE8629E7C83375B986B89CE',
-    participant: undefined
-  },
-  messageTimestamp: 1724960322,
+  messageTimestamp: 1725156737,
   pushName: 'Estefania Danciul',
   broadcast: false,
   message: Message {
@@ -194,13 +15,12 @@
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Estefania Danciul',
   body: 'Hola',
   from: '5492345662340'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d04c89da-cb3e-44c0-b1bc-99799ec62fc9',
-  keyword: 'key_ad10c84c-a96c-4425-9bd8-e9a2ab264b87',
+  ref: 'ans_2e59c25c-bcfd-4caa-9e57-eb37cd118a8e',
+  keyword: 'key_a580b896-5812-4d8d-bcfb-97af791564ae',
   answer: '¡Hola!\n' +
     '  \n' +
     '🤖 Soy el Asistente Virtual del *Hospital Dr Posadas de Saladillo*\n' +
@@ -227,16 +47,16 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'b83807cb9d9d3527cc2165e43415c870'
+  refSerialize: '267e5b1d07dca76051c19928cb73e2b5'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5492345662340@s.whatsapp.net',
     fromMe: false,
-    id: 'CAA59257A62429D75D2A56B4E74AB672',
+    id: '72DF25F73F604BA867EFA987AD538E39',
     participant: undefined
   },
-  messageTimestamp: 1724960328,
+  messageTimestamp: 1725156740,
   pushName: 'Estefania Danciul',
   broadcast: false,
   message: Message {
@@ -246,13 +66,13 @@
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Estefania Danciul',
+  status: 4,
   body: '1',
   from: '5492345662340'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2898e903-394f-4106-8d6d-c3b4671cf7f5',
-  keyword: 'key_d6abc125-90b6-4766-af94-ba747fefceab',
+  ref: 'ans_76776320-5149-4dce-a5b0-0eea9ed17738',
+  keyword: 'key_52479cb9-11a1-4af3-9aa3-241041f5b4f4',
   answer: 'Aqui podes selecionar el numero al tipo de especialidad a la cual quieres pedir turno, recuerda que debes cumplir ciertos requisitos que estaran informados\n' +
     ' \n' +
     ' \n' +
@@ -270,16 +90,16 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '690139387f933553e4296ac648f85f4c'
+  refSerialize: 'e8947837c563f416ab3018b9957510ac'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5492345662340@s.whatsapp.net',
     fromMe: false,
-    id: 'F8AC201AD60C6115EDB91D0B2F6D9AFD',
+    id: '3ABA81B7FB2142A0650E8FB5B6B6413A',
     participant: undefined
   },
-  messageTimestamp: 1724960333,
+  messageTimestamp: 1725156744,
   pushName: 'Estefania Danciul',
   broadcast: false,
   message: Message {
@@ -289,13 +109,12 @@
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Estefania Danciul',
   body: '1',
   from: '5492345662340'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2724e417-cb1d-4b9b-808f-d947167092d8',
-  keyword: 'key_17b6f2ae-8358-466c-af3b-51e4556ca16f',
+  ref: 'ans_d8af8bd1-df3e-46b3-a31d-634906bbff9d',
+  keyword: 'key_b2d4bb00-1864-4513-af55-7a9fbd77777c',
   answer: 'Indicar especialidad requerida\n' +
     ' \n' +
     '*1.-* Cardiologia\n' +
@@ -306,7 +125,98 @@
     '*6.-* Fonoaudiologia\n' +
     '*7.-* Gastroenterologia\n' +
     '*8.-* Ginecologia\n' +
-    '*9.-* Hematologia',
+    '*9.-* Hematologia\n' +
+    '*10.-* Neurologia\n' +
+    '*11.-* Oftalmologia\n' +
+    '*12.-* Oncologia\n' +
+    '*13.-* Psiquiatria\n' +
+    '*14.-* Traumatologia\n' +
+    '*15.-* Pediatria\n' +
+    '*16.-* Urologia\n' +
+    '*17.-* Nutricion\n' +
+    '*18.-* Odontologia\n' +
+    '*19.-* Fisiatria\n' +
+    '*20.-* Neumologia\n' +
+    '*21.-* Obstreticia\n' +
+    '*22.-* Otorrinonaringologia\n' +
+    '*23.-* Nefrologia',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '8a86022de25d5c528793222257b4000a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '5D1B9E044D470293325A3E2AA49D6448',
+    participant: undefined
+  },
+  messageTimestamp: 1725156750,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ad2b3e38-a2aa-4b65-b26e-7d6297ba7ff4',
+  keyword: 'key_7a14a7d0-069b-4fdd-b603-c818ea33a60b',
+  answer: 'Por favor selecione el medico',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd1794a7347e911211a6a83d9bf770907'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_95d75ea3-f504-4495-a1ad-c5cc2d818cd9',
+  keyword: 'ans_ad2b3e38-a2aa-4b65-b26e-7d6297ba7ff4',
+  answer: '*1*.- Dr. Negro\n' +
+    '*2*.- Dr. Wallace\n' +
+    '*3*.- Dra. Lopez\n' +
+    '*4*.- Dr. Almendariz\n' +
+    '*5*.- Dra. Bubillo\n' +
+    '*6*.- Dr. De Michelis\n' +
+    '*7*.- Dr Miranda',
   options: {
     media: null,
     buttons: [],
@@ -322,38 +232,256 @@
       [Object], [Object],
       [Object], [Object],
       [Object], [Object],
-      [Object], [Object],
-      [Object]
+      [Object], [Object]
     ],
     keyword: {},
     callback: false
   },
-  refSerialize: '0f19a213d22d92252641625e52d71b35'
+  refSerialize: '08a6ac8a22cfe11b9a370d36a8bf46c8'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5492345662340@s.whatsapp.net',
     fromMe: false,
-    id: '0C7F765C21EB212F3254C605AF15DF85',
+    id: '922A1770F058108BCBCC151CDB261D7C',
     participant: undefined
   },
-  messageTimestamp: 1724960348,
+  messageTimestamp: 1725156759,
   pushName: 'Estefania Danciul',
   broadcast: false,
   message: Message {
-    conversation: '3',
+    conversation: '1',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Estefania Danciul',
-  body: '3',
+  body: '1',
   from: '5492345662340'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_62b8a28c-523a-4b8a-9d0e-8fef4b6f4eb0',
-  keyword: 'key_a4e900f4-e8c3-4010-a3bc-ba6256505c24',
+  ref: 'ans_53035021-68ac-45de-a686-053e16076437',
+  keyword: 'key_74b809ac-42da-4554-995d-1c6a252b3c20',
+  answer: 'Por favor, ingrese los siguientes datos:\n' +
+    '\n' +
+    '    Apellido y Nombre:\n' +
+    '\n' +
+    '    DNI:\n' +
+    '\n' +
+    '    Fecha de Nacimiento:\n' +
+    '\n' +
+    '    Localidad:\n' +
+    '\n' +
+    '    Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden médica digital y la credencial actualizada)\n' +
+    '\n' +
+    '    Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '987ce9769be584e8406628d4fd0e993a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '60BF9DEA66CADF63529AF155FF3839FA',
+    participant: undefined
+  },
+  messageTimestamp: 1725156771,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2e59c25c-bcfd-4caa-9e57-eb37cd118a8e',
+  keyword: 'key_a580b896-5812-4d8d-bcfb-97af791564ae',
+  answer: '¡Hola!\n' +
+    '  \n' +
+    '🤖 Soy el Asistente Virtual del *Hospital Dr Posadas de Saladillo*\n' +
+    'Por favor escriba el número de la opción correspondiente\n' +
+    '  \n' +
+    '*1.-*  Reservar turnos\n' +
+    '*2.-*  Modificación o cancelación de turnos reservados\n' +
+    '*3.-*  Confirmación de asistencia\n' +
+    '*4.-*  Consultas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '267e5b1d07dca76051c19928cb73e2b5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '991972123C3CF18F79317F031D1D4666',
+    participant: undefined
+  },
+  messageTimestamp: 1725156774,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_76776320-5149-4dce-a5b0-0eea9ed17738',
+  keyword: 'key_52479cb9-11a1-4af3-9aa3-241041f5b4f4',
+  answer: 'Aqui podes selecionar el numero al tipo de especialidad a la cual quieres pedir turno, recuerda que debes cumplir ciertos requisitos que estaran informados\n' +
+    ' \n' +
+    ' \n' +
+    '*1.-* Consultorios Medicos\n' +
+    '*2.-* Estudios de Diagnostico',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e8947837c563f416ab3018b9957510ac'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: 'F08013C35DBEBB920F10EAC0080BBBAC',
+    participant: undefined
+  },
+  messageTimestamp: 1725156776,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d8af8bd1-df3e-46b3-a31d-634906bbff9d',
+  keyword: 'key_b2d4bb00-1864-4513-af55-7a9fbd77777c',
+  answer: 'Indicar especialidad requerida\n' +
+    ' \n' +
+    '*1.-* Cardiologia\n' +
+    '*2.-* Clinica Medica\n' +
+    '*3.-* Cirugia\n' +
+    '*4.-* Dermatologia\n' +
+    '*5.-* Endodrinologia\n' +
+    '*6.-* Fonoaudiologia\n' +
+    '*7.-* Gastroenterologia\n' +
+    '*8.-* Ginecologia\n' +
+    '*9.-* Hematologia\n' +
+    '*10.-* Neurologia\n' +
+    '*11.-* Oftalmologia\n' +
+    '*12.-* Oncologia\n' +
+    '*13.-* Psiquiatria\n' +
+    '*14.-* Traumatologia\n' +
+    '*15.-* Pediatria\n' +
+    '*16.-* Urologia\n' +
+    '*17.-* Nutricion\n' +
+    '*18.-* Odontologia\n' +
+    '*19.-* Fisiatria\n' +
+    '*20.-* Neumologia\n' +
+    '*21.-* Obstreticia\n' +
+    '*22.-* Otorrinonaringologia\n' +
+    '*23.-* Nefrologia',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '8a86022de25d5c528793222257b4000a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: 'C097059F1036375C637618759FBC127F',
+    participant: undefined
+  },
+  messageTimestamp: 1725156788,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '15',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '15',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b21f713c-8e9b-4f81-aeb6-161b1259a9af',
+  keyword: 'key_55699d2c-d4b4-4958-bde0-969b1016a1f7',
   answer: 'Por favor selecione el medico',
   options: {
     media: null,
@@ -367,17 +495,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'cb3f3410dde4f4dd25679c74d1741fa8'
+  refSerialize: '10d97043c73dd7adede21028ae737e2a'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d9837248-4f54-43d9-94f4-a0a223228c5e',
-  keyword: 'ans_62b8a28c-523a-4b8a-9d0e-8fef4b6f4eb0',
-  answer: 'Dr. Wallace\n' +
-    'Dra. Lopez\n' +
-    'Dr. Almendariz\n' +
-    'Dra. Bubillo\n' +
-    'Dr. De Michelis\n' +
-    'Dr Miranda',
+  ref: 'ans_441dca9e-2c39-4f2b-b56d-32b295f43ba0',
+  keyword: 'ans_b21f713c-8e9b-4f81-aeb6-161b1259a9af',
+  answer: 'Medico 1\nMedico 2\nMedico 3',
   options: {
     media: null,
     buttons: [],
@@ -390,49 +513,28 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '91e6dc7365cca2e9159f80fe0f1b8fb4'
+  refSerialize: 'b660fd1a23f26ebd18532447ae3b3752'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5492345662340@s.whatsapp.net',
     fromMe: false,
-    id: 'C6E9CF0850E6D6832258B81CBDD0770F',
+    id: '53DD9F002355A204147D719F99B4AA06',
     participant: undefined
   },
-  messageTimestamp: 1724960365,
-  pushName: 'Estefania Danciul',
-  broadcast: false,
-  message: Message {
-    conversation: 'Dr. Wallace',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  verifiedBizName: 'Estefania Danciul',
-  body: 'Dr. Wallace',
-  from: '5492345662340'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5492345662340@s.whatsapp.net',
-    fromMe: false,
-    id: 'F445854803876CFC1EA43814C5D3EA9C',
-    participant: undefined
-  },
-  messageTimestamp: 1724960371,
+  messageTimestamp: 1725156795,
   pushName: 'Estefania Danciul',
   broadcast: false,
   message: Message {
     stickerMessage: StickerMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.15575-24/12157755_809314978037440_4232284569003816756_n.enc?ccb=11-4&oh=01_Q5AaIHFkNEY4_2FBDjaQHk_z8ma-FYYL0yDWtuTP2vI_569R&oe=66F82383&_nc_sid=5e03e0&mms3=true',
+      url: 'https://mmg.whatsapp.net/v/t62.15575-24/23835840_474424332176509_5631629871721887759_n.enc?ccb=11-4&oh=01_Q5AaIExKyp24-tFpwiN0oYQyO-Itk1AuA7LsUGypX_cmF0xe&oe=66FB4D49&_nc_sid=5e03e0&mms3=true',
       fileSha256: [Uint8Array],
       fileEncSha256: [Uint8Array],
       mediaKey: [Uint8Array],
       mimetype: 'image/webp',
       height: 64,
       width: 64,
-      directPath: '/v/t62.15575-24/12157755_809314978037440_4232284569003816756_n.enc?ccb=11-4&oh=01_Q5AaIHFkNEY4_2FBDjaQHk_z8ma-FYYL0yDWtuTP2vI_569R&oe=66F82383&_nc_sid=5e03e0',
+      directPath: '/v/t62.15575-24/23835840_474424332176509_5631629871721887759_n.enc?ccb=11-4&oh=01_Q5AaIExKyp24-tFpwiN0oYQyO-Itk1AuA7LsUGypX_cmF0xe&oe=66FB4D49&_nc_sid=5e03e0',
       fileLength: [Long],
       mediaKeyTimestamp: [Long],
       isAnimated: false,
@@ -444,119 +546,1418 @@
       deviceListMetadataVersion: 2
     }
   },
-  verifiedBizName: 'Estefania Danciul',
-  body: '_event_media__f204222e-be39-4124-9485-3fb643ea5506',
+  body: '_event_media__933c4357-062a-4f30-b41c-d60bd6b16c42',
   from: '5492345662340'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
+    remoteJid: '5492345662340@s.whatsapp.net',
     fromMe: false,
-    id: '5957A26A0435E61D24E5EA20D23330B3',
+    id: 'AD8C01428C2AE2D8BDC85A900F02C4FA',
     participant: undefined
   },
-  messageTimestamp: 1724960926,
-  pushName: 'Laura',
+  messageTimestamp: 1725156798,
+  pushName: 'Estefania Danciul',
   broadcast: false,
   message: Message {
-    conversation: 'Es la que vaaaa',
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Es la que vaaaa',
-  from: '5491121848449'
+  body: 'Hola',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2e59c25c-bcfd-4caa-9e57-eb37cd118a8e',
+  keyword: 'key_a580b896-5812-4d8d-bcfb-97af791564ae',
+  answer: '¡Hola!\n' +
+    '  \n' +
+    '🤖 Soy el Asistente Virtual del *Hospital Dr Posadas de Saladillo*\n' +
+    'Por favor escriba el número de la opción correspondiente\n' +
+    '  \n' +
+    '*1.-*  Reservar turnos\n' +
+    '*2.-*  Modificación o cancelación de turnos reservados\n' +
+    '*3.-*  Confirmación de asistencia\n' +
+    '*4.-*  Consultas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '267e5b1d07dca76051c19928cb73e2b5'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
+    remoteJid: '5492345662340@s.whatsapp.net',
     fromMe: false,
-    id: '3501BC61E06B40C8A013633AE6882935',
+    id: '7BB6321EEB3B7257EE6FA14DB3048F2D',
     participant: undefined
   },
-  messageTimestamp: 1724960951,
-  pushName: 'Laura',
+  messageTimestamp: 1725156803,
+  pushName: 'Estefania Danciul',
   broadcast: false,
   message: Message {
-    conversation: 'Yo recién tuve la clase mientras vendía rifas y disfrutaba del solcito en la ventana 😆',
+    conversation: '2',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Yo recién tuve la clase mientras vendía rifas y disfrutaba del solcito en la ventana 😆',
-  from: '5491121848449'
+  body: '2',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_989390b0-a9d3-49a4-b1fa-54066c56eb62',
+  keyword: 'key_1a4a9e82-63d1-4f8a-a96b-baf861b0016d',
+  answer: '*Indique si quiere Cancelar o modificar su turno*\n' +
+    '\n' +
+    '*1*.- Modificar\n' +
+    '*2*.- Cancelar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'ded86d80dfdd2ac7fcf393d8d660ec33'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
+    remoteJid: '5492345662340@s.whatsapp.net',
     fromMe: false,
-    id: '174FC2FB2D579E3DFD69E2E969BE588A',
+    id: '5A35C1CFFA574C84D839864B848405FF',
     participant: undefined
   },
-  messageTimestamp: 1724960961,
-  pushName: 'Laura',
+  messageTimestamp: 1725156806,
+  pushName: 'Estefania Danciul',
   broadcast: false,
   message: Message {
-    conversation: 'Tengo que leer un montón',
+    conversation: '1',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Tengo que leer un montón',
-  from: '5491121848449'
+  body: '1',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0cd3763b-179b-473c-95c5-06ce89c5db85',
+  keyword: 'key_be9c5d24-708e-4db4-8a57-a524543d70db',
+  answer: 'Indique los siguientes datos para poder modificar su turno\n' +
+    'Apellido y nombre:\n' +
+    'DNI:\n' +
+    'Fecha de nacimiento:\n' +
+    'Localidad:\n' +
+    'Obra social:\n' +
+    'Turno que tenía otorgado (Médico/Especialidad, día que tiene el turno asignado',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '4ccd466fd803612b0e6649999001e5b6'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
+    remoteJid: '5492345662340@s.whatsapp.net',
     fromMe: false,
-    id: '58ED211E04A4B9A6FDCB9AB78602E1B0',
+    id: 'E8AC5227B5BBB370C1ED27B09DFC25F1',
     participant: undefined
   },
-  messageTimestamp: 1724960966,
-  pushName: 'Laura',
+  messageTimestamp: 1725156817,
+  pushName: 'Estefania Danciul',
   broadcast: false,
   message: Message {
-    imageMessage: ImageMessage {
-      interactiveAnnotations: [],
-      scanLengths: [Array],
-      url: 'https://mmg.whatsapp.net/v/t62.7118-24/30645798_405450022559761_1641313789443206800_n.enc?ccb=11-4&oh=01_Q5AaIP0cv7fSAHj9sZQqz4kfAFKfD29D1S5PqWayKOToVR-f&oe=66F83AEB&_nc_sid=5e03e0&mms3=true',
-      mimetype: 'image/jpeg',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      height: 1280,
-      width: 720,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7118-24/30645798_405450022559761_1641313789443206800_n.enc?ccb=11-4&oh=01_Q5AaIP0cv7fSAHj9sZQqz4kfAFKfD29D1S5PqWayKOToVR-f&oe=66F83AEB&_nc_sid=5e03e0',
-      mediaKeyTimestamp: [Long],
-      jpegThumbnail: [Uint8Array],
-      scansSidecar: [Uint8Array],
-      midQualityFileSha256: [Uint8Array]
-    },
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '_event_media__0f367ddd-40ba-43ea-8249-b14ce380ed2b',
-  from: '5491121848449'
+  body: 'Hola',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2e59c25c-bcfd-4caa-9e57-eb37cd118a8e',
+  keyword: 'key_a580b896-5812-4d8d-bcfb-97af791564ae',
+  answer: '¡Hola!\n' +
+    '  \n' +
+    '🤖 Soy el Asistente Virtual del *Hospital Dr Posadas de Saladillo*\n' +
+    'Por favor escriba el número de la opción correspondiente\n' +
+    '  \n' +
+    '*1.-*  Reservar turnos\n' +
+    '*2.-*  Modificación o cancelación de turnos reservados\n' +
+    '*3.-*  Confirmación de asistencia\n' +
+    '*4.-*  Consultas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '267e5b1d07dca76051c19928cb73e2b5'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491160563829@s.whatsapp.net',
+    remoteJid: '5492345662340@s.whatsapp.net',
     fromMe: false,
-    id: '2209ADA9652FD63DB2F74EAB6F8AF029',
+    id: 'D1BBBC3EAF6DA5E61300EBBBF63D844B',
     participant: undefined
   },
-  messageTimestamp: 1724968439,
-  pushName: 'Marr',
+  messageTimestamp: 1725156820,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_781eac87-b0f6-4a53-bd07-dcad4f3d6d88',
+  keyword: 'key_cda9f27b-ed4f-4c5e-add1-8e21c65ca181',
+  answer: 'Indique los siguientes datos para poder confirmar su turno\n' +
+    'Apellido y nombre:\n' +
+    'DNI:\n' +
+    'Fecha de nacimiento:\n' +
+    'Localidad:\n' +
+    'Obra social:\n' +
+    'Turno que tenía otorgado (Médico/Especialidad, día que tiene el turno asignado',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '5e42e8d47fc11b288f4862274c18c52e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '3D696EB6813CF6BC787E7AB7C1A73467',
+    participant: undefined
+  },
+  messageTimestamp: 1725156828,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2e59c25c-bcfd-4caa-9e57-eb37cd118a8e',
+  keyword: 'key_a580b896-5812-4d8d-bcfb-97af791564ae',
+  answer: '¡Hola!\n' +
+    '  \n' +
+    '🤖 Soy el Asistente Virtual del *Hospital Dr Posadas de Saladillo*\n' +
+    'Por favor escriba el número de la opción correspondiente\n' +
+    '  \n' +
+    '*1.-*  Reservar turnos\n' +
+    '*2.-*  Modificación o cancelación de turnos reservados\n' +
+    '*3.-*  Confirmación de asistencia\n' +
+    '*4.-*  Consultas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '267e5b1d07dca76051c19928cb73e2b5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '3ACE3AC3759F09EDCB5215C9A56FAE73',
+    participant: undefined
+  },
+  messageTimestamp: 1725156831,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '4',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  status: 4,
+  body: '4',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_69756fe7-e50b-428b-be3d-66221defa127',
+  keyword: 'key_fe8d01ce-35da-4a2d-b99d-aa62b5c1b0a4',
+  answer: 'Por consultas debe comunicarse a nuestras líneas fijas:\n' +
+    '2344-454112\n' +
+    '2344-454114\n' +
+    '2344-454113\n' +
+    'De lunes a viernes (días hábiles) en horario de 7:00 a 17:00 hs',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7e724f1c9b1be0102f1bed104751d6e9'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '99E9295DBFB43D922A55FD4CF120C464',
+    participant: undefined
+  },
+  messageTimestamp: 1725156836,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2e59c25c-bcfd-4caa-9e57-eb37cd118a8e',
+  keyword: 'key_a580b896-5812-4d8d-bcfb-97af791564ae',
+  answer: '¡Hola!\n' +
+    '  \n' +
+    '🤖 Soy el Asistente Virtual del *Hospital Dr Posadas de Saladillo*\n' +
+    'Por favor escriba el número de la opción correspondiente\n' +
+    '  \n' +
+    '*1.-*  Reservar turnos\n' +
+    '*2.-*  Modificación o cancelación de turnos reservados\n' +
+    '*3.-*  Confirmación de asistencia\n' +
+    '*4.-*  Consultas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '267e5b1d07dca76051c19928cb73e2b5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: 'E683EC3805B3D845C8BEB9B7AFB2415E',
+    participant: undefined
+  },
+  messageTimestamp: 1725156839,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_76776320-5149-4dce-a5b0-0eea9ed17738',
+  keyword: 'key_52479cb9-11a1-4af3-9aa3-241041f5b4f4',
+  answer: 'Aqui podes selecionar el numero al tipo de especialidad a la cual quieres pedir turno, recuerda que debes cumplir ciertos requisitos que estaran informados\n' +
+    ' \n' +
+    ' \n' +
+    '*1.-* Consultorios Medicos\n' +
+    '*2.-* Estudios de Diagnostico',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e8947837c563f416ab3018b9957510ac'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '41F4BF656D573CDA538743C17CAE4859',
+    participant: undefined
+  },
+  messageTimestamp: 1725156843,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cfdb753c-679d-4683-8bd8-a5071f599a08',
+  keyword: 'key_0fee5195-06b2-4573-91d6-92ecef76a388',
+  answer: '*1.-* Rayos\n' +
+    '*2.-* Espinografia\n' +
+    '*3.-* Tomografía\n' +
+    '*4.-* Mamografía\n' +
+    '*5.-* Magnificaciones\n' +
+    '*6.-* Ecocardiograma\n' +
+    '*7.-* Electroencefalograma\n' +
+    '*8.-* Doppler\n' +
+    '*9.-* Estudios Audiologicos\n' +
+    '*10.-* Estudios Gastroenterológicos\n' +
+    '*11.-* Laboratorio',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '462bc80d3af66a80143d6db4f6b7263a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: 'B2FA3813B85181C6447ACDBD307EE9A5',
+    participant: undefined
+  },
+  messageTimestamp: 1725156847,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5fcde81f-34d9-4976-b245-7f311b9af95d',
+  keyword: 'key_2c0086f2-55e8-4fe4-a813-8bff155396f9',
+  answer: 'Enviar foto de la orden de indicación\n' +
+    'Apellido y nombre\n' +
+    'DNI\n' +
+    'Fecha de nacimiento\n' +
+    'Localidad\n' +
+    'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)\n' +
+    '*Peso aproximado del paciente*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '8728bdc9846e5a335d653b74f148d36c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '3EE58DB1E4C03851476CB89FD055735C',
+    participant: undefined
+  },
+  messageTimestamp: 1725156853,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2e59c25c-bcfd-4caa-9e57-eb37cd118a8e',
+  keyword: 'key_a580b896-5812-4d8d-bcfb-97af791564ae',
+  answer: '¡Hola!\n' +
+    '  \n' +
+    '🤖 Soy el Asistente Virtual del *Hospital Dr Posadas de Saladillo*\n' +
+    'Por favor escriba el número de la opción correspondiente\n' +
+    '  \n' +
+    '*1.-*  Reservar turnos\n' +
+    '*2.-*  Modificación o cancelación de turnos reservados\n' +
+    '*3.-*  Confirmación de asistencia\n' +
+    '*4.-*  Consultas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '267e5b1d07dca76051c19928cb73e2b5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '572186E8EEFC0B3FB8166FC8E8EBCB3C',
+    participant: undefined
+  },
+  messageTimestamp: 1725156858,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_76776320-5149-4dce-a5b0-0eea9ed17738',
+  keyword: 'key_52479cb9-11a1-4af3-9aa3-241041f5b4f4',
+  answer: 'Aqui podes selecionar el numero al tipo de especialidad a la cual quieres pedir turno, recuerda que debes cumplir ciertos requisitos que estaran informados\n' +
+    ' \n' +
+    ' \n' +
+    '*1.-* Consultorios Medicos\n' +
+    '*2.-* Estudios de Diagnostico',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e8947837c563f416ab3018b9957510ac'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '1EEB93E7FBF3CFA4004E6CBFEF7F7E6C',
+    participant: undefined
+  },
+  messageTimestamp: 1725156860,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cfdb753c-679d-4683-8bd8-a5071f599a08',
+  keyword: 'key_0fee5195-06b2-4573-91d6-92ecef76a388',
+  answer: '*1.-* Rayos\n' +
+    '*2.-* Espinografia\n' +
+    '*3.-* Tomografía\n' +
+    '*4.-* Mamografía\n' +
+    '*5.-* Magnificaciones\n' +
+    '*6.-* Ecocardiograma\n' +
+    '*7.-* Electroencefalograma\n' +
+    '*8.-* Doppler\n' +
+    '*9.-* Estudios Audiologicos\n' +
+    '*10.-* Estudios Gastroenterológicos\n' +
+    '*11.-* Laboratorio',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '462bc80d3af66a80143d6db4f6b7263a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: 'D5AAAD373DAD96C6AC11551375C4F37E',
+    participant: undefined
+  },
+  messageTimestamp: 1725156864,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_fbb99508-47df-4a39-aeb7-d7ff8c87dc25',
+  keyword: 'key_cc8aa95a-d856-4a85-9dfc-38aa931832e4',
+  answer: 'Enviar foto de la orden de indicación\n' +
+    'Apellido y nombre\n' +
+    'DNI\n' +
+    'Fecha de nacimiento\n' +
+    'Localidad\n' +
+    'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '43671a29f02871798440d1b35b0e9623'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: 'D866AF5FE15FBD426F72FC002E3C2AE0',
+    participant: undefined
+  },
+  messageTimestamp: 1725156868,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2e59c25c-bcfd-4caa-9e57-eb37cd118a8e',
+  keyword: 'key_a580b896-5812-4d8d-bcfb-97af791564ae',
+  answer: '¡Hola!\n' +
+    '  \n' +
+    '🤖 Soy el Asistente Virtual del *Hospital Dr Posadas de Saladillo*\n' +
+    'Por favor escriba el número de la opción correspondiente\n' +
+    '  \n' +
+    '*1.-*  Reservar turnos\n' +
+    '*2.-*  Modificación o cancelación de turnos reservados\n' +
+    '*3.-*  Confirmación de asistencia\n' +
+    '*4.-*  Consultas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '267e5b1d07dca76051c19928cb73e2b5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '9BB8365D5923505E0439826BE095E06F',
+    participant: undefined
+  },
+  messageTimestamp: 1725156871,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  status: 4,
+  body: '1',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_76776320-5149-4dce-a5b0-0eea9ed17738',
+  keyword: 'key_52479cb9-11a1-4af3-9aa3-241041f5b4f4',
+  answer: 'Aqui podes selecionar el numero al tipo de especialidad a la cual quieres pedir turno, recuerda que debes cumplir ciertos requisitos que estaran informados\n' +
+    ' \n' +
+    ' \n' +
+    '*1.-* Consultorios Medicos\n' +
+    '*2.-* Estudios de Diagnostico',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e8947837c563f416ab3018b9957510ac'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '1D13661D4B741F3D05358CD9EBBE5407',
+    participant: undefined
+  },
+  messageTimestamp: 1725156873,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cfdb753c-679d-4683-8bd8-a5071f599a08',
+  keyword: 'key_0fee5195-06b2-4573-91d6-92ecef76a388',
+  answer: '*1.-* Rayos\n' +
+    '*2.-* Espinografia\n' +
+    '*3.-* Tomografía\n' +
+    '*4.-* Mamografía\n' +
+    '*5.-* Magnificaciones\n' +
+    '*6.-* Ecocardiograma\n' +
+    '*7.-* Electroencefalograma\n' +
+    '*8.-* Doppler\n' +
+    '*9.-* Estudios Audiologicos\n' +
+    '*10.-* Estudios Gastroenterológicos\n' +
+    '*11.-* Laboratorio',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '462bc80d3af66a80143d6db4f6b7263a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: 'E6C9201BA51BBE77B217231704813E42',
+    participant: undefined
+  },
+  messageTimestamp: 1725156877,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_50cab483-25db-427b-b3d6-aca374e5a9b1',
+  keyword: 'key_31276a80-66b3-4a00-a003-9ed350ff822a',
+  answer: 'Enviar foto de la orden de indicación\n' +
+    'Apellido y nombre\n' +
+    'DNI\n' +
+    'Fecha de nacimiento\n' +
+    'Localidad\n' +
+    'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)\n' +
+    '*Presentar radiografia previa de columna, el dia de atención',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '198cbeddb62eb9c4aaeb195ba544a1dd'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '908671D53826A7439B5C5EFB427C0D5E',
+    participant: undefined
+  },
+  messageTimestamp: 1725156886,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2e59c25c-bcfd-4caa-9e57-eb37cd118a8e',
+  keyword: 'key_a580b896-5812-4d8d-bcfb-97af791564ae',
+  answer: '¡Hola!\n' +
+    '  \n' +
+    '🤖 Soy el Asistente Virtual del *Hospital Dr Posadas de Saladillo*\n' +
+    'Por favor escriba el número de la opción correspondiente\n' +
+    '  \n' +
+    '*1.-*  Reservar turnos\n' +
+    '*2.-*  Modificación o cancelación de turnos reservados\n' +
+    '*3.-*  Confirmación de asistencia\n' +
+    '*4.-*  Consultas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '267e5b1d07dca76051c19928cb73e2b5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '638579E096856E9E7825B544FE983015',
+    participant: undefined
+  },
+  messageTimestamp: 1725156890,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_76776320-5149-4dce-a5b0-0eea9ed17738',
+  keyword: 'key_52479cb9-11a1-4af3-9aa3-241041f5b4f4',
+  answer: 'Aqui podes selecionar el numero al tipo de especialidad a la cual quieres pedir turno, recuerda que debes cumplir ciertos requisitos que estaran informados\n' +
+    ' \n' +
+    ' \n' +
+    '*1.-* Consultorios Medicos\n' +
+    '*2.-* Estudios de Diagnostico',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e8947837c563f416ab3018b9957510ac'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '392AECC9D175A67C40DC6730AA69FECA',
+    participant: undefined
+  },
+  messageTimestamp: 1725156893,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cfdb753c-679d-4683-8bd8-a5071f599a08',
+  keyword: 'key_0fee5195-06b2-4573-91d6-92ecef76a388',
+  answer: '*1.-* Rayos\n' +
+    '*2.-* Espinografia\n' +
+    '*3.-* Tomografía\n' +
+    '*4.-* Mamografía\n' +
+    '*5.-* Magnificaciones\n' +
+    '*6.-* Ecocardiograma\n' +
+    '*7.-* Electroencefalograma\n' +
+    '*8.-* Doppler\n' +
+    '*9.-* Estudios Audiologicos\n' +
+    '*10.-* Estudios Gastroenterológicos\n' +
+    '*11.-* Laboratorio',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '462bc80d3af66a80143d6db4f6b7263a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '4F0EBB9504486EB441E23EE44C3C9216',
+    participant: undefined
+  },
+  messageTimestamp: 1725156898,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '4',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '4',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_fe67fcd8-558f-4627-8a69-66d3b45b97d9',
+  keyword: 'key_d02447da-a0c4-4bc0-b8b6-360572f51d7f',
+  answer: 'Enviar foto de la orden de indicación\n' +
+    'Apellido y nombre\n' +
+    'DNI\n' +
+    'Fecha de nacimiento\n' +
+    'Localidad\n' +
+    'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2698b515601817e0e0501d2ce808ebf3'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: 'F1040EF5C5274D01A13D2C666575DE28',
+    participant: undefined
+  },
+  messageTimestamp: 1725156905,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2e59c25c-bcfd-4caa-9e57-eb37cd118a8e',
+  keyword: 'key_a580b896-5812-4d8d-bcfb-97af791564ae',
+  answer: '¡Hola!\n' +
+    '  \n' +
+    '🤖 Soy el Asistente Virtual del *Hospital Dr Posadas de Saladillo*\n' +
+    'Por favor escriba el número de la opción correspondiente\n' +
+    '  \n' +
+    '*1.-*  Reservar turnos\n' +
+    '*2.-*  Modificación o cancelación de turnos reservados\n' +
+    '*3.-*  Confirmación de asistencia\n' +
+    '*4.-*  Consultas',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '267e5b1d07dca76051c19928cb73e2b5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '300D9CEDC059D89380911F099EB6ED31',
+    participant: undefined
+  },
+  messageTimestamp: 1725156911,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_76776320-5149-4dce-a5b0-0eea9ed17738',
+  keyword: 'key_52479cb9-11a1-4af3-9aa3-241041f5b4f4',
+  answer: 'Aqui podes selecionar el numero al tipo de especialidad a la cual quieres pedir turno, recuerda que debes cumplir ciertos requisitos que estaran informados\n' +
+    ' \n' +
+    ' \n' +
+    '*1.-* Consultorios Medicos\n' +
+    '*2.-* Estudios de Diagnostico',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e8947837c563f416ab3018b9957510ac'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '38A4F0499B7A4107B35FA0DB066B80FE',
+    participant: undefined
+  },
+  messageTimestamp: 1725156914,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d8af8bd1-df3e-46b3-a31d-634906bbff9d',
+  keyword: 'key_b2d4bb00-1864-4513-af55-7a9fbd77777c',
+  answer: 'Indicar especialidad requerida\n' +
+    ' \n' +
+    '*1.-* Cardiologia\n' +
+    '*2.-* Clinica Medica\n' +
+    '*3.-* Cirugia\n' +
+    '*4.-* Dermatologia\n' +
+    '*5.-* Endodrinologia\n' +
+    '*6.-* Fonoaudiologia\n' +
+    '*7.-* Gastroenterologia\n' +
+    '*8.-* Ginecologia\n' +
+    '*9.-* Hematologia\n' +
+    '*10.-* Neurologia\n' +
+    '*11.-* Oftalmologia\n' +
+    '*12.-* Oncologia\n' +
+    '*13.-* Psiquiatria\n' +
+    '*14.-* Traumatologia\n' +
+    '*15.-* Pediatria\n' +
+    '*16.-* Urologia\n' +
+    '*17.-* Nutricion\n' +
+    '*18.-* Odontologia\n' +
+    '*19.-* Fisiatria\n' +
+    '*20.-* Neumologia\n' +
+    '*21.-* Obstreticia\n' +
+    '*22.-* Otorrinonaringologia\n' +
+    '*23.-* Nefrologia',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '8a86022de25d5c528793222257b4000a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: 'AD671AFF32181F0D2F1E838E5A6D3D81',
+    participant: undefined
+  },
+  messageTimestamp: 1725156918,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '18',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '18',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cfce3052-8453-44da-bf0e-36c24f4c3a03',
+  keyword: 'key_f9aba978-c81a-4d45-b605-94aa56b86659',
+  answer: 'Por favor selecione una opcion',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '8af1d3636f8579664d8c5a43bda3cea1'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f82862f4-985e-4d18-b4bf-f92ec2d9dec4',
+  keyword: 'ans_cfce3052-8453-44da-bf0e-36c24f4c3a03',
+  answer: '*1*.- Adultos\n*2*.- Niños',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '5b2e0d89b4d2a4118fc79dd5c4ae7f44'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: 'B0D27F94E170DD4DA848AF6DD46BA644',
+    participant: undefined
+  },
+  messageTimestamp: 1725156922,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5492345662340'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5d96e473-0fc1-4481-8af5-b579edb25f1c',
+  keyword: 'key_cdcf1118-9040-4c85-8c4b-0070bd8c0261',
+  answer: 'Por favor, ingrese los siguientes datos:\n' +
+    '\n' +
+    '    Apellido y Nombre:\n' +
+    '\n' +
+    '    DNI:\n' +
+    '\n' +
+    '    Fecha de Nacimiento:\n' +
+    '\n' +
+    '    Localidad:\n' +
+    '\n' +
+    '    Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden médica digital y la credencial actualizada)\n' +
+    '\n' +
+    '    Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '9e946a9e5d1559401a91ac8e11e2eeaa'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '06EF329A780A2C5D0798B647CF220002',
+    participant: undefined
+  },
+  messageTimestamp: 1725156957,
+  pushName: 'Estefania Danciul',
+  broadcast: false,
+  message: Message {
+    conversation: 'Acá previo habría que ver si es de mañana o tarde',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Acá previo habría que ver si es de mañana o tarde',
+  from: '5492345662340'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492345662340@s.whatsapp.net',
+    fromMe: false,
+    id: '8748B88107916EE157616EE95827744F',
+    participant: undefined
+  },
+  messageTimestamp: 1725157273,
+  pushName: 'Estefania Danciul',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'Dani',
+      text: 'No no, niños es respuesta directa. Mañana o tarde es solo adultos',
       previewType: 0,
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
@@ -566,58 +1967,18 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Dani',
-  from: '5491160563829'
+  body: 'No no, niños es respuesta directa. Mañana o tarde es solo adultos',
+  from: '5492345662340'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '5491160563829@s.whatsapp.net',
+    remoteJid: '5492345662340@s.whatsapp.net',
     fromMe: false,
-    id: '2981CEA30C76EEA6BC677DDE84EF44DD',
+    id: '611A6B6224085973D4B0C28027322FA3',
     participant: undefined
   },
-  messageTimestamp: 1724968445,
-  pushName: 'Marr',
-  broadcast: false,
-  message: Message {
-    conversation: 'Ahí te pase lo de la rifa',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ahí te pase lo de la rifa',
-  from: '5491160563829'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491160563829@s.whatsapp.net',
-    fromMe: false,
-    id: '4DC5B9E540611E5A7550956C580FA50F',
-    participant: undefined
-  },
-  messageTimestamp: 1724968448,
-  pushName: 'Marr',
-  broadcast: false,
-  message: Message {
-    conversation: '😬😬😬🤗',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '😬😬😬🤗',
-  from: '5491160563829'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491160563829@s.whatsapp.net',
-    fromMe: false,
-    id: 'EC9E36D920B919660511636E931EF8D9',
-    participant: undefined
-  },
-  messageTimestamp: 1724971523,
-  pushName: 'Marr',
+  messageTimestamp: 1725157281,
+  pushName: 'Estefania Danciul',
   broadcast: false,
   message: Message {
     messageContextInfo: MessageContextInfo {
@@ -626,257 +1987,26 @@
     },
     reactionMessage: ReactionMessage {
       key: [MessageKey],
-      text: '😮',
+      text: '😂',
       senderTimestampMs: [Long]
     }
   },
   body: '',
-  from: '5491160563829'
+  from: '5492345662340'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '1697764735@broadcast',
+    remoteJid: '5492345662340@s.whatsapp.net',
     fromMe: false,
-    id: 'B06D356554740968EFDE43EB863D27D3',
-    participant: '5491123865169@s.whatsapp.net'
-  },
-  messageTimestamp: 1724972889,
-  pushName: 'EDEN Resto&Bar',
-  broadcast: true,
-  message: Message {
-    senderKeyDistributionMessage: SenderKeyDistributionMessage {
-      groupId: '1697764735@broadcast',
-      axolotlSenderKeyDistributionMessage: [Uint8Array]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    },
-    imageMessage: ImageMessage {
-      interactiveAnnotations: [],
-      scanLengths: [],
-      url: 'https://mmg.whatsapp.net/v/t62.7118-24/11889727_972348851246692_3049609827139120674_n.enc?ccb=11-4&oh=01_Q5AaIMC-eMZGrmqwNa0MTACExbSZH3IoSh-L6zBJCcLA-K3I&oe=66F86119&_nc_sid=5e03e0&mms3=true',
-      mimetype: 'image/jpeg',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      height: 1600,
-      width: 912,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7118-24/11889727_972348851246692_3049609827139120674_n.enc?ccb=11-4&oh=01_Q5AaIMC-eMZGrmqwNa0MTACExbSZH3IoSh-L6zBJCcLA-K3I&oe=66F86119&_nc_sid=5e03e0',
-      mediaKeyTimestamp: [Long],
-      jpegThumbnail: [Uint8Array],
-      contextInfo: [ContextInfo]
-    }
-  },
-  body: '_event_media__f498ed0a-33b8-4927-bf22-6d604dc3723c',
-  from: '1697764735@broadcast'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491151652403@s.whatsapp.net',
-    fromMe: false,
-    id: 'B3E233A60C278D5A1C194799972BF9F4',
+    id: '9D6CD8C64A0E59CA4AAE2912AC3861DE',
     participant: undefined
   },
-  messageTimestamp: 1724976025,
-  pushName: 'Dario',
-  broadcast: false,
-  message: Message {
-    conversation: 'Che forro del orto',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Che forro del orto',
-  from: '5491151652403'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491151652403@s.whatsapp.net',
-    fromMe: false,
-    id: '8F8EEE91513F3774D8E2B6896DEBD240',
-    participant: undefined
-  },
-  messageTimestamp: 1724976031,
-  pushName: 'Dario',
-  broadcast: false,
-  message: Message {
-    conversation: '21.30 vamos a jugar',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '21.30 vamos a jugar',
-  from: '5491151652403'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491151652403@s.whatsapp.net',
-    fromMe: false,
-    id: '1ACDAF5C27C54621A6747E319EACB76D',
-    participant: undefined
-  },
-  messageTimestamp: 1724976040,
-  pushName: 'Dario',
-  broadcast: false,
-  message: Message {
-    audioMessage: AudioMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.7117-24/11897315_1795087574231759_6727996178487423145_n.enc?ccb=11-4&oh=01_Q5AaIMIiWcjfuG4gYjCH9WjPNlzSe_ivGc94sIqHNiiWv22R&oe=66F86F72&_nc_sid=5e03e0&mms3=true',
-      mimetype: 'audio/ogg; codecs=opus',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      seconds: 4,
-      ptt: true,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7117-24/11897315_1795087574231759_6727996178487423145_n.enc?ccb=11-4&oh=01_Q5AaIMIiWcjfuG4gYjCH9WjPNlzSe_ivGc94sIqHNiiWv22R&oe=66F86F72&_nc_sid=5e03e0',
-      mediaKeyTimestamp: [Long],
-      waveform: [Uint8Array]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '_event_voice_note__d040ecfa-11e1-47bc-ba43-8f43332cea9c',
-  from: '5491151652403'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491151652403@s.whatsapp.net',
-    fromMe: false,
-    id: 'E7F37C151A56B53C818A003FB9F15F35',
-    participant: undefined
-  },
-  messageTimestamp: 1724976067,
-  pushName: 'Dario',
-  broadcast: false,
-  message: Message {
-    conversation: 'Yo te aviso',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Yo te aviso',
-  from: '5491151652403'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491151652403@s.whatsapp.net',
-    fromMe: false,
-    id: '6A730CDDFB7E8CAED5139047BE371D40',
-    participant: undefined
-  },
-  messageTimestamp: 1724976080,
-  pushName: 'Dario',
-  broadcast: false,
-  message: Message {
-    conversation: 'Despierto si jugas o no es tu tema jaja',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Despierto si jugas o no es tu tema jaja',
-  from: '5491151652403'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491151652403@s.whatsapp.net',
-    fromMe: false,
-    id: 'AEE1AED04909490B581D4CA0312B4312',
-    participant: undefined
-  },
-  messageTimestamp: 1724976088,
-  pushName: 'Dario',
-  broadcast: false,
-  message: Message {
-    conversation: 'Jajajajajajajjajajajajajajj',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Jajajajajajajjajajajajajajj',
-  from: '5491151652403'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: 'D9EBAC878291A062E3AFCAEEC7B6EC2A',
-    participant: undefined
-  },
-  messageTimestamp: 1724977707,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: 'TN criticando a Adorni?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'TN criticando a Adorni?',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: '14589D7EB3AFDBBE0007E56BFFB4225F',
-    participant: undefined
-  },
-  messageTimestamp: 1724977711,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: '😆',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '😆',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: 'BC71BD908203BF3333C30AC0EB7077FC',
-    participant: undefined
-  },
-  messageTimestamp: 1724977721,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: 'Tiempos de confusión',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Tiempos de confusión',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: '951558D24B60D32F2DF88F334E71D03B',
-    participant: undefined
-  },
-  messageTimestamp: 1724977939,
-  pushName: 'Laura',
+  messageTimestamp: 1725157288,
+  pushName: 'Estefania Danciul',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: '😖',
+      text: 'Te quiero mucho Dani querido',
       previewType: 0,
       contextInfo: [ContextInfo],
       inviteLinkGroupTypeV2: 0
@@ -886,330 +2016,6 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: '😖',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: 'FBB1DFC0BBE6AB4D6D91623D72C7FE30',
-    participant: undefined
-  },
-  messageTimestamp: 1724978001,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: 'A mí me están cayendo particularmente mal las declaraciones y cosas sobre mujeres y disidencias',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'A mí me están cayendo particularmente mal las declaraciones y cosas sobre mujeres y disidencias',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: 'FE071383149DB6CACAAEA960935BD3D7',
-    participant: undefined
-  },
-  messageTimestamp: 1724978025,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: 'No me sorprende. Pero me parece una tragedia',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'No me sorprende. Pero me parece una tragedia',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: '77C2CA3CFED963AFEB269CC666AB8565',
-    participant: undefined
-  },
-  messageTimestamp: 1724978054,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: 'Legitiman un discurso que nos lleva a años atrás',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Legitiman un discurso que nos lleva a años atrás',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: 'DBD5ABED55A4EA1C4B98357992A6690A',
-    participant: undefined
-  },
-  messageTimestamp: 1724978091,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: 'No sé que doc me dijiste?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'No sé que doc me dijiste?',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: '1F274820872E98151F228A86FF60B48A',
-    participant: undefined
-  },
-  messageTimestamp: 1724978133,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'A vos no te suele conmover mucho nada',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'A vos no te suele conmover mucho nada',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: '233AA822A7C841F3D9ED9AE68B4C9C4A',
-    participant: undefined
-  },
-  messageTimestamp: 1724978201,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Claro, a mí tampoco me sorprende. Me parece trágico, pero no me sorprende',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Claro, a mí tampoco me sorprende. Me parece trágico, pero no me sorprende',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: '1147F7748E954641BE6D581B1A44C1AD',
-    participant: undefined
-  },
-  messageTimestamp: 1724978242,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Cómo se llama?',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Cómo se llama?',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: '011889A9547022BF5036C6F8CD68ACEF',
-    participant: undefined
-  },
-  messageTimestamp: 1724978346,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    },
-    reactionMessage: ReactionMessage {
-      key: [MessageKey],
-      text: '❤️',
-      senderTimestampMs: [Long]
-    }
-  },
-  body: '',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: 'F8F7A276D5AC2B5FDC65346760ED8F2A',
-    participant: undefined
-  },
-  messageTimestamp: 1724978551,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: 'Después de leer algunxs de lxs filosofxs que me mandaron de la facu la voy a buscar',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Después de leer algunxs de lxs filosofxs que me mandaron de la facu la voy a buscar',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: '2CBC5559CDB6B892CF3B0613EC244226',
-    participant: undefined
-  },
-  messageTimestamp: 1724978650,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: 'Me voy a cocinar alguito y comer!',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Me voy a cocinar alguito y comer!',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: '2B5BE83A3F95C4A362AFD26D38696948',
-    participant: undefined
-  },
-  messageTimestamp: 1724978662,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: 'Ojalá puedas descansar y te sientas mejor Dani',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ojalá puedas descansar y te sientas mejor Dani',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: 'C77E923C4D945F0402ED791AB960ACB7',
-    participant: undefined
-  },
-  messageTimestamp: 1724978851,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Me habías dicho que estabas queriéndote enfermar ayer',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Me habías dicho que estabas queriéndote enfermar ayer',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: '72047772686E0E5E37E1211A2CC7592B',
-    participant: undefined
-  },
-  messageTimestamp: 1724978860,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: 'Con la nariz tapada y alergia',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Con la nariz tapada y alergia',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: '5145B9B47705C149DDAEE0AD4B1441D4',
-    participant: undefined
-  },
-  messageTimestamp: 1724978873,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: 'Me alegro que estés mejor entonces',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Me alegro que estés mejor entonces',
-  from: '5491121848449'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491121848449@s.whatsapp.net',
-    fromMe: false,
-    id: '49351F6EBE82B8AF4357AFFD3B4BB684',
-    participant: undefined
-  },
-  messageTimestamp: 1724978896,
-  pushName: 'Laura',
-  broadcast: false,
-  message: Message {
-    conversation: 'Bueni. Que descanses Dani',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Bueni. Que descanses Dani',
-  from: '5491121848449'
+  body: 'Te quiero mucho Dani querido',
+  from: '5492345662340'
 }
