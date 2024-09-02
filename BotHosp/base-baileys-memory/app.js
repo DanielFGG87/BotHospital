@@ -38,12 +38,30 @@ Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confi
 // ######
 // Especialidades Medicas
 // ######
-    
+
+
+// CARDIOLOGIA
+
+const flowDrBilbao = addKeyword(['1','bilbao']).addAnswer([
+    mensage()
+])
+
+const flowDrAlamada = addKeyword(['2','almada']).addAnswer([
+    mensage()
+])
+
+const flowDrGarcia = addKeyword(['3','garcia']).addAnswer([
+    mensage()
+])
+
 const flowCardiologia = addKeyword(['1', 'cardiologia']).addAnswer(['Por favor selecione el medico'])
     .addAnswer([
-        'Medico 1',
-        'Medico 2',
-        'Medico 3'
+        '*1*.- Dr.Bilbao',
+        '*2*.- Dr. Almada',
+        '*3*.- Dr. Garcia'],
+        null,
+        null,
+        [flowDrBilbao, flowDrAlamada, flowDrGarcia
     ])
 
 // CLINICA MEDICA
@@ -376,10 +394,10 @@ const flowUrologia = addKeyword(['16', 'urologia']).addAnswer(['Por favor seleci
 const flowLicPompozzi = addKeyword(['1','pompozzi']).addAnswer([
     mensage()])
 
-const flowLicDalto = addKeyword(['1','dalto']).addAnswer([
+const flowLicDalto = addKeyword(['2','dalto']).addAnswer([
         mensage()])
 
-const flowLicEstevez = addKeyword(['1','estevez']).addAnswer([
+const flowLicEstevez = addKeyword(['3','estevez']).addAnswer([
             mensage()])
 
 const flowNutricion = addKeyword(['17', 'nutricion']).addAnswer(['Por favor selecione el medico'])
@@ -393,7 +411,7 @@ const flowNutricion = addKeyword(['17', 'nutricion']).addAnswer(['Por favor sele
 
 // ODONTOLOGIA
 
-const flowOdonNiños = addKeyword(['1', 'niños']).addAnswer([mensage()])
+const flowOdonNiños = addKeyword(['2', 'niños']).addAnswer([mensage()])
 
 const flowOdonAdulosMañana = addKeyword(['1', 'mañana']).addAnswer([mensage()])
 
@@ -475,7 +493,7 @@ const flowObstreticia = addKeyword(['21', 'obstreticia']).addAnswer(['Por favor 
 
 // OTORRINONARINGOLOGIA
 
-const flowDrMazzei = addKeyword(['5','mazzei']).addAnswer([
+const flowDrMazzei = addKeyword(['1','mazzei']).addAnswer([
     mensage()])
 
 const flowOtorrino = addKeyword(['22', 'otorrino']).addAnswer(['Por favor selecione el medico'])
@@ -508,7 +526,7 @@ const flowKinesiologia = addKeyword(['25', 'kinesiologia']).addAnswer(['Enviar f
     'DNI:', 
     'Fecha de nacimiento:',
     'Localidad:',
-    '*Obra social (recuerde que los pacientes de PAMI deben dirigirse a la agencia de PAMI)*'
+    '*Obra social (recuerde que los pacientes de PAMI deben dirigirse a la agencia de PAMI para consultar convenio o puede también hacerlo telefónicamente a nuestras líneas fijas)*'
     ])
   
         //'Medico 2',
@@ -660,7 +678,7 @@ const flowEcocardiograma = addKeyword(['6','Ecocardiograma'])
         'DNI', 
         'Fecha de nacimiento',
         'Localidad',
-        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)'
+        '*Obra social (recuerde que los pacientes de PAMI deben dirigirse a la agencia de PAMI para consultar convenio o puede también hacerlo telefónicamente a nuestras líneas fijas)*'
         ])
 
 const flowElectroenfacelograma = addKeyword(['7','Electroencefalograma'])
@@ -678,7 +696,7 @@ const flowDoppler = addKeyword(['8','Doppler'])
         'DNI', 
         'Fecha de nacimiento',
         'Localidad',
-        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)',
+        '*Obra social (recuerde que los pacientes de PAMI deben dirigirse a la agencia de PAMI para consultar convenio o puede también hacerlo telefónicamente a nuestras líneas fijas)*',
         '*Recuerde que solo se realizan Doppler de vasos de cuello, cardíaco y obstétrico y venoso de MMII*'
         ])
 
@@ -697,18 +715,35 @@ const flowEstGastroenterologicos = addKeyword(['10','Estudios Gastroenterológic
         'DNI', 
         'Fecha de nacimiento',
         'Localidad',
-        'Obra social (recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada)'
+        '*Obra social (recuerde que los pacientes de PAMI deben dirigirse a la agencia de PAMI para consultar convenio o puede también hacerlo telefónicamente a nuestras líneas fijas)*'
         ])
 
 const flowLaboratorio = addKeyword(['11','Laboratorio'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+    'Apellido y nombre',
+    'DNI', 
+    'Fecha de nacimiento',
+    'Localidad',
+    '*Obra social (recuerde que los pacientes de PAMI deben dirigirse a la agencia de PAMI para consultar convenio o puede también hacerlo telefónicamente a nuestras líneas fijas)*'
+    ])
+
+const flowDopplerArterial = addKeyword(['12','Laboratorio'])
+    .addAnswer(['Enviar foto de la orden de indicación',
+    'Apellido y nombre',
+    'DNI', 
+    'Fecha de nacimiento',
+    'Localidad',
+    '*Obra social (recuerde que los pacientes de PAMI deben dirigirse a la agencia de PAMI para consultar convenio o puede también hacerlo telefónicamente a nuestras líneas fijas)*'
+    ])
+
+const flowEspirometria = addKeyword(['13','Laboratorio'])
     .addAnswer(['Enviar foto de la orden de indicación',
         'Apellido y nombre',
         'DNI', 
         'Fecha de nacimiento',
         'Localidad',
-        '*Obra social (recuerde que los pacientes de PAMI poseen convenio con los laboratorios privados y pueden solicitar su turno ahí sin costo adicional*'
+        '*Obra social (recuerde que los pacientes de PAMI deben dirigirse a la agencia de PAMI para consultar convenio o puede también hacerlo telefónicamente a nuestras líneas fijas)*'
         ])
-
 
  const flowEstudioDiag = addKeyword(['2','diagnostico','estudio'])
         .addAnswer([
@@ -722,12 +757,14 @@ const flowLaboratorio = addKeyword(['11','Laboratorio'])
             '*8.-* Doppler',
             '*9.-* Estudios Audiologicos', 
             '*10.-* Estudios Gastroenterológicos',
-            '*11.-* Laboratorio'
+            '*11.-* Laboratorio',
+            '*12.-* Doopler arterial MMII',
+            '*13.-* Espirometria'
         ],
         null,
         null,
         [
-            flowRayos, flowEspinografia, flowTomografia, flowMamografia, 
+            flowDopplerArterial, flowEspirometria, flowRayos, flowEspinografia, flowTomografia, flowMamografia, 
             flowMagnificaciones, flowEcocardiograma, flowElectroenfacelograma, 
             flowDoppler, flowEstAudiologicos, flowEstGastroenterologicos, 
             flowLaboratorio
