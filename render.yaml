@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-bot
+    env: node
+    plan: free
+    buildCommand: "cd BotHosp\base-baileys-memory && npm install"
+    startCommand: "cd BotHosp\base-baileys-memory && npm start"
