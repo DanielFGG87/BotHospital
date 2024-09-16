@@ -7,6 +7,17 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 //const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
 
+function horarioActual() {
+    const currentDate = new Date();
+    const currentHour = currentDate.getHours(); // Hora actual (0 - 23)
+    const currentDay = currentDate.getDay(); // Día de la semana (0 es domingo, 6 es sábado)
+
+    // Definimos que el horario de atención es de lunes a viernes, de 8:00 a 18:00
+    if (currentDay >= 1 && currentDay <= 5 && currentHour >= 8 && currentHour < 18) {
+        return true; // Dentro del horario de atención
+    }
+    return false; // Fuera del horario de atención
+};
 
 /*    .addAnswer([
         'Aguarde mientras gestionamos su turno. Recibirá un mensaje con la información del mismo.',
@@ -849,6 +860,64 @@ const flowConsultas = addKeyword(['4','consultas'])
 
 
 // MENU INICIAL 
+// Flujo Principal
+
+/*const estaEnHorarioDeAtencion = () => {
+    const currentDate = new Date();
+    const currentHour = currentDate.getHours(); // Hora actual (0 - 23)
+    const currentDay = currentDate.getDay(); // Día de la semana (0 es domingo, 6 es sábado)
+
+    // Definimos que el horario de atención es de lunes a viernes, de 8:00 a 18:00
+    if (currentDay >= 1 && currentDay <= 5 && currentHour >= 8 && currentHour < 18) {
+        return true; // Dentro del horario de atención
+    }
+    return false; // Fuera del horario de atención
+}*/
+
+// Flujo secundario: Activado solo en horario de atención
+const flowHorarioAtencion = addKeyword(['hola', 'ole', 'alo'])
+    .addAnswer(
+        [
+            '¡Hola! 🤖 Soy el Asistente Virtual del *Hospital Dr Posadas de Saladillo*',
+            'Por favor escriba el número de la opción correspondiente:',
+            '*1.-* Reservar turnos',
+            '*2.-* Modificación o cancelación de turnos reservados',
+            '*3.-* Confirmación de asistencia',
+            '*4.-* Consultas',
+        ]
+    )
+const flowOpcion1 = addKeyword(['1']).addAnswer(['opciones de la opcion 1'])
+
+const flowOpcion2 = addKeyword(['2']).addAnswer(['opciones de la opcion 2'])
+// Flujo alternativo: Activado fuera del horario de atención
+
+// Flujo principal que redirige al flujo correspondiente según el horario
+const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
+    .addAction(async (_, {flowDynamic}) => {
+        // Verifica si está en horario de atención o no
+        if (horarioActual()) {
+            // Si está en horario de atención, redirige a `flowHorarioAtencion`
+            await flowDynamic('horario de atencion')
+            await flowDynamic(flowHorarioAtencion)
+             // Cambiado para redirigir correctamente
+        } else {
+            // Si está fuera de horario, redirige a `flowFueraDeHorario`
+            await flowDynamic(['¡Hola! Actualmente estamos fuera del horario de atención. 🕔',
+        '*1* para OPCION 1',
+             '*2* para OPCION 2'],
+             [flowOpcion1, flowOpcion2]); // Cambiado para redirigir correctamente
+        }
+    })
+
+/*
+
+const flowPrincipal = addKeyword(['hola', 'alo'])
+
+  .addAction(async (_, { flowDynamic }) => {
+
+    return flowDynamic('¡Hola! ¿En qué puedo ayudarte?');
+
+  });
 
 
 const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
@@ -866,7 +935,7 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
         ],
         null,
         null,
-        [flowConsultas, flowConfirmacion, flowModificarCancelarT, flowResTurno]
+        [flowConsultas, flowConfirmacion, flowModificar, flowResTurno]
     )
 
 const main = async () => {

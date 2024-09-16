@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 [{"senderKeyId":1096362889,"senderChainKey":{"iteration":10,"seed":"fZiDFw1062BzBwRSi/3+oP3NrxBMNtHqSDO7M014gy4="},"senderSigningKey":{"public":"BdxGWoGuzED/Ub5xx81oy53KklyfPaS/FO0Rwun8EOs1"},"senderMessageKeys":[]},{"senderKeyId":1096362889,"senderChainKey":{"iteration":3,"seed":"NS7mfUxtUhho8Ee4Vg9jsQjNAX4LSJobo6fIqzR8YLU="},"senderSigningKey":{"public":"BdxGWoGuzED/Ub5xx81oy53KklyfPaS/FO0Rwun8EOs1"},"senderMessageKeys":[]}]
+=======
+[{"senderKeyId":1096362889,"senderChainKey":{"iteration":23,"seed":"t0BEV/LjfjoR5Fo5GrcObQNYjf98MdpHGLcdMBHxgSg="},"senderSigningKey":{"public":"BdxGWoGuzED/Ub5xx81oy53KklyfPaS/FO0Rwun8EOs1"},"senderMessageKeys":[]}]
+>>>>>>> Stashed changes
