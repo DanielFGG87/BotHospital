@@ -526,7 +526,7 @@ const flowDrWallaceG = addKeyword(['2','wallace'])
         await state.update({ msj: msj })})
     .addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowFoto);
+        return gotoFlow(flowDatosObra);
     })
 
 const flowDrLucia = addKeyword(['3','lucia'])
@@ -540,7 +540,7 @@ const flowDrLucia = addKeyword(['3','lucia'])
         await state.update({ msj: msj })})
     .addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowFoto);
+        return gotoFlow(flowDatosObra);
     })
 
 const flowDrFacciutto = addKeyword(['4','facciutto'])
@@ -554,7 +554,7 @@ const flowDrFacciutto = addKeyword(['4','facciutto'])
         await state.update({ msj: msj })})
     .addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowFoto);
+        return gotoFlow(flowDatosObra);
     })
 const flowGastroenterologia = addKeyword(['7', 'gastro']).addAnswer(['Por favor selecione el medico.'])
     .addAnswer([
@@ -1053,7 +1053,7 @@ const flowOdonNiños = addKeyword(['2', 'niños']).addAction(
     async (ctx, { state }) => {
     const medico = 'Sin asignar'; // Tu dato
         await state.update({ medico: medico })
-    const especialidad = 'Pediatria'; // Tu dato
+    const especialidad = 'Odontologia Niños'; // Tu dato
         await state.update({ especialidad: especialidad })
     const msj = mensage3(); // Tu dato
         await state.update({ msj: msj })})
@@ -1066,7 +1066,7 @@ const flowOdonAdulosMañana = addKeyword(['1', 'mañana']).addAction(
     async (ctx, { state }) => {
     const medico = 'Sin asignar'; // Tu dato
         await state.update({ medico: medico })
-    const especialidad = 'Pediatria'; // Tu dato
+    const especialidad = 'Odontologia Turno mañana'; // Tu dato
         await state.update({ especialidad: especialidad })
     const msj = mensage3(); // Tu dato
         await state.update({ msj: msj })})
@@ -1079,7 +1079,7 @@ const flowOdonAdultosTarde = addKeyword(['2', 'tarde']).addAction(
     async (ctx, { state }) => {
     const medico = 'Sin asignar'; // Tu dato
         await state.update({ medico: medico })
-    const especialidad = 'Pediatria'; // Tu dato
+    const especialidad = 'Odontologia turno tarde'; // Tu dato
         await state.update({ especialidad: especialidad })
     const msj = mensage3(); // Tu dato
         await state.update({ msj: msj })})
@@ -1550,7 +1550,7 @@ const flowEcocardiograma = addKeyword(['6','Ecocardiograma'])
     async (ctx, { state }) => {
     const medico = 'Sin asignar'; // Tu dato
         await state.update({ medico: medico })
-    const especialidad = 'Estudio Gastroenterologo'; // Tu dato
+    const especialidad = 'Ecocardiograma'; // Tu dato
         await state.update({ especialidad: especialidad })
     const msj = mensage4(); // Tu dato
         await state.update({ msj: msj })})
