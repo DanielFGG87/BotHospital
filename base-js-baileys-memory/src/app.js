@@ -24,24 +24,23 @@ function horarioActual() {
 // MENSAJES
 //Datos obrasocial PAMI
 function mensage() {
-    return [`ecuerde que los pacientes de PAMI deberán presentar la Orden médica digital y la credencial actualizada)\n
-    Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo`]}
+    return [`Recuerde que los pacientes de PAMI deberán presentar la Orden médica digital y la credencial actualizada\n
+    Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo.`]}
 //Datos
 function mensage2() {
-    return [`Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo`]}  
+    return [`Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo.`]}  
 //Datos y obrasocial
 function mensage3() {
-    return [`Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo`]}
+    return [`Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo.`]}
 
 //Con foto
 
 //Datos, obrasocial PAMI
-function mensage4() {
-   return ['*Recuerde que los pacientes de PAMI deben dirigirse a la agencia de PAMI para consultar convenio o puede también hacerlo telefónicamente a nuestras líneas fijas)*\
-    Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo']}
+function mensage4() {return ['*Recuerde que los pacientes de PAMI deben dirigirse a la agencia de PAMI para consultar convenio o puede también hacerlo telefónicamente a nuestras líneas fijas.*\
+    Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo.']}
 //Datos y obrasocial
 function mensage5() {
-    return [`Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo`]}    
+    return [`Y luego aguarde mientras gestionamos su turno, recibirá un mensaje con la confirmación del mismo.`]}    
 
 // PETICION DE DATOS
 
@@ -98,14 +97,14 @@ function mensage5() {
     .addAnswer('Tus datos son:', null, async (_, { flowDynamic, state }) => {
         const myState = state.getMyState()
         flowDynamic(`   Nombre: ${myState.name}
-        Fecha de nacimiento : ${myState.nac}
-        DNI: ${myState.dni}
-        Localidad : ${myState.nac}
-        Obra social: ${myState.obr}
-        Especialidad: ${myState.especialidad}
-        Medico: ${myState.medico}
+    Fecha de nacimiento : ${myState.nac}
+    DNI: ${myState.dni}
+    Localidad : ${myState.loc}
+    Obra social: ${myState.obr}
+    Especialidad: ${myState.especialidad}
+    Medico: ${myState.medico}
     
-        ${mensage()}`)
+    ${mensage()}`)
         
     })
 
@@ -143,7 +142,7 @@ const flowFoto = addKeyword(EVENTS.ACTION)
 
 // ROTORNO AL MENU INICIAL
 
-const flowRetorno = addKeyword('0', {sensitive: true}).addAnswer(['_Volviendo al menu inicial.._'])
+const flowRetorno = addKeyword('0', {sensitive: true}).addAnswer(['_Volviendo al menu inicial..._'])
 .addAction(
     async (ctx, { gotoFlow }) => {
     // Ir automáticamente al siguiente flujo (flow2)
@@ -456,7 +455,7 @@ const flowTratamientoL = addKeyword(['tratamiento','1'])
         await state.update({ msj: msj })})
     .addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowDatosFoto);
+        return gotoFlow(flowFoto);
     })
 
 const flowOEA = addKeyword(['oea','2']).addAnswer([
@@ -486,7 +485,7 @@ const flowEstudiosA = addKeyword(['estudios','3'])
         await state.update({ msj: msj })})
     .addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowDatosFoto);
+        return gotoFlow(flowFoto);
     })
 
 
@@ -527,7 +526,7 @@ const flowDrWallaceG = addKeyword(['2','wallace'])
         await state.update({ msj: msj })})
     .addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowDatosFoto);
+        return gotoFlow(flowFoto);
     })
 
 const flowDrLucia = addKeyword(['3','lucia'])
@@ -541,7 +540,7 @@ const flowDrLucia = addKeyword(['3','lucia'])
         await state.update({ msj: msj })})
     .addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowDatosFoto);
+        return gotoFlow(flowFoto);
     })
 
 const flowDrFacciutto = addKeyword(['4','facciutto'])
@@ -555,7 +554,7 @@ const flowDrFacciutto = addKeyword(['4','facciutto'])
         await state.update({ msj: msj })})
     .addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowDatosFoto);
+        return gotoFlow(flowFoto);
     })
 const flowGastroenterologia = addKeyword(['7', 'gastro']).addAnswer(['Por favor selecione el medico.'])
     .addAnswer([
@@ -1305,7 +1304,7 @@ const flowKinesiologia = addKeyword(['25', 'kinesiologia']).addAction(
         await state.update({ msj: msj })})
     .addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowDatosFoto);
+        return gotoFlow(flowFoto);
     })
 
 
@@ -1321,7 +1320,7 @@ const flowTerapiaOcu = addKeyword(['26', 'terapia']).addAction(
             await state.update({ msj: msj })})
         .addAction(
         async (ctx, { gotoFlow }) => {
-            return gotoFlow(flowDatosFoto);
+            return gotoFlow(flowFoto);
         })
 
 
@@ -1461,7 +1460,7 @@ const flowEstGastroenterologicos = addKeyword(['10','Gastroenterologicos'])
         await state.update({ msj: msj })})
     .addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowDatosFoto);
+        return gotoFlow(flowFoto);
     })
 
     
@@ -1557,7 +1556,7 @@ const flowEcocardiograma = addKeyword(['6','Ecocardiograma'])
         await state.update({ msj: msj })})
     .addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowDatosFoto);
+        return gotoFlow(flowFoto);
     })
 
 // ELECTROENFACELOGRAMA
@@ -1587,7 +1586,7 @@ const flowDoppler = addKeyword(['8','Doppler'])
         async (ctx, { state }) => {
         const medico = 'Sin asignar'; // Tu dato
             await state.update({ medico: medico })
-        const especialidad = 'Electroenfacelograma'; // Tu dato
+        const especialidad = 'Doppler'; // Tu dato
             await state.update({ especialidad: especialidad })
         const msj = '*Recuerde que los pacientes de PAMI deben dirigirse a la agencia de PAMI para consultar convenio o puede también hacerlo telefónicamente a nuestras líneas fijas)*\
         \
@@ -1612,9 +1611,9 @@ const flowEstAudiologicos = addKeyword(['9','Estudios audiologicos'])
         await state.update({ especialidad: especialidad })
     const msj = mensage4(); // Tu dato
         await state.update({ msj: msj })})
-    .addAction(
+.addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowDatosFoto);
+        return gotoFlow(flowFoto);
     })
 
 
@@ -1626,13 +1625,13 @@ const flowLaboratorio = addKeyword(['11','laboratorio'])
     async (ctx, { state }) => {
     const medico = 'Sin asignar'; // Tu dato
         await state.update({ medico: medico })
-    const especialidad = 'Estudio Gastroenterologo'; // Tu dato
+    const especialidad = 'Laboratorio'; // Tu dato
         await state.update({ especialidad: especialidad })
     const msj = mensage4(); // Tu dato
         await state.update({ msj: msj })})
     .addAction(
     async (ctx, { gotoFlow }) => {
-        return gotoFlow(flowDatosFoto);
+        return gotoFlow(flowFoto);
     })
 
 // ESPIROMETRIA
@@ -1642,7 +1641,7 @@ const flowEspirometria = addKeyword(['12','espirometria'])
     async (ctx, { state }) => {
     const medico = 'Sin asignar'; // Tu dato
         await state.update({ medico: medico })
-    const especialidad = 'Electroenfacelograma'; // Tu dato
+    const especialidad = 'Espirometria'; // Tu dato
         await state.update({ especialidad: especialidad })
     const msj = '*Recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada*\
     \
@@ -1669,7 +1668,7 @@ const flowElectrocardiograma = addKeyword(['14', 'electrocardiograma'])
     async (ctx, { state }) => {
     const medico = 'Sin asignar'; // Tu dato
         await state.update({ medico: medico })
-    const especialidad = 'Ecografia'; // Tu dato
+    const especialidad = 'Electrocardiograma'; // Tu dato
         await state.update({ especialidad: especialidad })
     const msj = '*Recuerde que los pacientes de PAMI deberán presentar la Orden medica digital y la credencial actualizada*\
     \
